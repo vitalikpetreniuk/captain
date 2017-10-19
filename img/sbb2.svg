@@ -1,0 +1,18 @@
+<svg width="147" height="160" viewBox="0 0 147 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Chart-UP</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-15971 -762)">
+<g id="Chart-UP">
+<g id="Layer 2">
+<g id="Layer 1">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(15971 762)" fill="#FFFFFF" fill-opacity="0.1"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 147 0L 111 18L 121 24L 88.08 81.84L 58.86 66.63L 58.35 66.35L 58.17 66.26C 57.1497 65.7934 55.9862 65.7491 54.9334 66.1369C 53.8806 66.5247 53.0239 67.313 52.55 68.33L 0 160L 57.84 76.91L 87.67 95.49C 88.993 96.3083 90.5845 96.5741 92.1016 96.2299C 93.6187 95.8857 94.9397 94.9592 95.78 93.65L 96.06 93.24L 136 32.59L 147 39L 147 0Z"/>
+</defs>
+</svg>

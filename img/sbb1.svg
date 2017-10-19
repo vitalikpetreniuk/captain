@@ -1,0 +1,16 @@
+<svg width="147" height="160" viewBox="0 0 147 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Layer 2</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-15971 -570)">
+<g id="Layer 2">
+<g id="Layer 1">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(15971 570)" fill="#FFFFFF" fill-opacity="0.1"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 147 160L 111 142L 121 136L 88.08 78.16L 58.86 93.37L 58.35 93.65L 58.17 93.74C 57.1497 94.2066 55.9862 94.2509 54.9334 93.8631C 53.8806 93.4753 53.0239 92.687 52.55 91.67L 0 0L 57.84 83.09L 87.67 64.51C 88.993 63.6917 90.5845 63.4259 92.1016 63.7701C 93.6187 64.1143 94.9397 65.0409 95.78 66.35L 96.06 66.76L 136 127.41L 147 121L 147 160Z"/>
+</defs>
+</svg>

@@ -1,0 +1,83 @@
+<svg width="11" height="12" viewBox="0 0 11 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>move</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-18842 -468)">
+<g id="move">
+<g id="Group">
+<g id="Group">
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(18851 474.5)" fill="#B0BEC5"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(18851 477.5)" fill="#B0BEC5"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(18851 471.5)" fill="#B0BEC5"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(18851 468.5)" fill="#B0BEC5"/>
+</g>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="Group">
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(18848 474.5)" fill="#B0BEC5"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(18848 477.5)" fill="#B0BEC5"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(18848 471.5)" fill="#B0BEC5"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(18848 468.5)" fill="#B0BEC5"/>
+</g>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="Group">
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(18845 474.5)" fill="#B0BEC5"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(18845 477.5)" fill="#B0BEC5"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(18845 471.5)" fill="#B0BEC5"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(18845 468.5)" fill="#B0BEC5"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="Group">
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(18842 474.5)" fill="#B0BEC5"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(18842 477.5)" fill="#B0BEC5"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(18842 471.5)" fill="#B0BEC5"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(18842 468.5)" fill="#B0BEC5"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 1 2C 1.55228 2 2 1.55228 2 1C 2 0.447715 1.55228 0 1 0C 0.447715 0 0 0.447715 0 1C 0 1.55228 0.447715 2 1 2Z"/>
+</defs>
+</svg>
