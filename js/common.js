@@ -30,6 +30,14 @@ $(function() {
 
     });
 
+    $('.cg-tooltip-button').on('click', function(){
+        $(this).siblings('.cg-tooltip').toggleClass('active');
+    });
+
+    $('.cg-tooltip > button').on('click', function(){
+        $(this).closest('.cg-tooltip').removeClass('active');
+    });
+
     $('.cg-modal-channel > div > button').on('click', function () {
         $(this).toggleClass('open');
         $(this).closest('.cg-modal-channel').find('.cg-modal-channel-drop').toggle('fast');

@@ -275,9 +275,21 @@
 			<div class="cg-main-content">
 				<div class="cg-main-content-in">
 					<div class="cg-segment-block-wrapper">
-						<h3>
-							<span>Wednesday, September 20th </span>
-						</h3>
+						<div class="cg-sbw-top">
+							<h3>
+								<span>Wednesday, September 20th </span>
+							</h3>
+							<button class="cg-tooltip-button cg-sb-sort" type="button">Sort insights</button>
+							<div class="cg-tooltip-sort cg-tooltip cg-tooltip-bottom">
+								<button type="button"><img src="img/close.svg" alt="close"></button>
+								<div class="active">
+									<a href="#">not seen first</a>
+								</div>
+								<div>
+									<a href="#">most important first</a>
+								</div>
+							</div>
+						</div>
 						<div class="cg-segment-block-list">
 							<div class="cg-segment-block cg-sb-red">
 								<div>
@@ -294,12 +306,39 @@
 									</div>
 									<div class="cg-sb-bottom">
 										<div class="cg-sb-rating">
-											<button type="button"><img src="img/like-a.svg" alt="like"></button>
-											<button type="button"><img src="img/dislike-a.svg" alt="dislike"></button>
+											<button type="button" class="cg-sb-like"><img src="img/like-a.svg" alt="like"></button>
+											<button class="cg-tooltip-button cg-sb-dislike" type="button"><img src="img/dislike-a.svg" alt="dislike"></button>
+                                            <div class="cg-tooltip-dislike cg-tooltip cg-tooltip-left">
+                                                <button type="button"><img src="img/close.svg" alt="close"></button>
+                                                <div>
+                                                    <a href="#">It Makes No Sense</a>
+                                                </div>
+                                                <div>
+                                                    <a href="#">It Is Not Relevant To Me</a>
+                                                </div>
+                                                <div>
+                                                    <a href="#">I Have Already Seen It</a>
+                                                </div>
+                                            </div>
 										</div>
 										<div class="cg-sb-rs">
 											<a class="cg-sb-fav" href="#"><img src="img/fav-a.svg" alt="favourite"></a>
-											<a class="cg-sb-share" href="#"><img src="img/share-a.svg" alt="share"></a>
+											<button type="button" class="cg-sb-share cg-tooltip-button"><img src="img/share-a.svg" alt="share"></button>
+                                            <div class="cg-share-block cg-tooltip cg-tooltip-left">
+                                                <button type="button"><img src="img/close.svg" alt="close"></button>
+                                                <div class="cg-share-slack">
+                                                    <a href="#">Slack</a>
+                                                </div>
+                                                <div class="cg-share-fm">
+                                                    <a href="#">Facebook Messenger</a>
+                                                </div>
+                                                <div class="cg-share-wa">
+                                                    <a href="#">WhatsApp</a>
+                                                </div>
+                                                <div class="cg-share-em">
+                                                    <a href="#">E-Mail</a>
+                                                </div>
+                                            </div>
 										</div>
 									</div>
 									<button class="cg-sb-button" type="button"></button>
@@ -327,13 +366,40 @@
 										</div>
 									</div>
 									<div class="cg-sb-bottom">
-										<div class="cg-sb-rating">
-											<button type="button"><img src="img/like-a.svg" alt="like"></button>
-											<button type="button"><img src="img/dislike-a.svg" alt="dislike"></button>
-										</div>
+                                        <div class="cg-sb-rating">
+                                            <button type="button" class="cg-sb-like"><img src="img/like-a.svg" alt="like"></button>
+                                            <button class="cg-tooltip-button cg-sb-dislike" type="button"><img src="img/dislike-a.svg" alt="dislike"></button>
+                                            <div class="cg-tooltip-dislike cg-tooltip cg-tooltip-left">
+                                                <button type="button"><img src="img/close.svg" alt="close"></button>
+                                                <div>
+                                                    <a href="#">It Makes No Sense</a>
+                                                </div>
+                                                <div>
+                                                    <a href="#">It Is Not Relevant To Me</a>
+                                                </div>
+                                                <div>
+                                                    <a href="#">I Have Already Seen It</a>
+                                                </div>
+                                            </div>
+                                        </div>
 										<div class="cg-sb-rs">
 											<a class="cg-sb-fav" href="#"><img src="img/fav-a.svg" alt="favourite"></a>
-											<a class="cg-sb-share" href="#"><img src="img/share-a.svg" alt="share"></a>
+                                            <button type="button" class="cg-sb-share cg-tooltip-button"><img src="img/share-a.svg" alt="share"></button>
+                                            <div class="cg-share-block cg-tooltip cg-tooltip-left">
+                                                <button type="button"><img src="img/close.svg" alt="close"></button>
+                                                <div class="cg-share-slack">
+                                                    <a href="#">Slack</a>
+                                                </div>
+                                                <div class="cg-share-fm">
+                                                    <a href="#">Facebook Messenger</a>
+                                                </div>
+                                                <div class="cg-share-wa">
+                                                    <a href="#">WhatsApp</a>
+                                                </div>
+                                                <div class="cg-share-em">
+                                                    <a href="#">E-Mail</a>
+                                                </div>
+                                            </div>
 										</div>
 									</div>
 									<button class="cg-sb-button" type="button"></button>
@@ -361,13 +427,40 @@
 										</div>
 									</div>
 									<div class="cg-sb-bottom">
-										<div class="cg-sb-rating">
-											<button type="button"><img src="img/like-a.svg" alt="like"></button>
-											<button type="button"><img src="img/dislike-a.svg" alt="dislike"></button>
-										</div>
+                                        <div class="cg-sb-rating">
+                                            <button type="button" class="cg-sb-like"><img src="img/like-a.svg" alt="like"></button>
+                                            <button class="cg-tooltip-button cg-sb-dislike" type="button"><img src="img/dislike-a.svg" alt="dislike"></button>
+                                            <div class="cg-tooltip-dislike cg-tooltip cg-tooltip-left">
+                                                <button type="button"><img src="img/close.svg" alt="close"></button>
+                                                <div>
+                                                    <a href="#">It Makes No Sense</a>
+                                                </div>
+                                                <div>
+                                                    <a href="#">It Is Not Relevant To Me</a>
+                                                </div>
+                                                <div>
+                                                    <a href="#">I Have Already Seen It</a>
+                                                </div>
+                                            </div>
+                                        </div>
 										<div class="cg-sb-rs">
 											<a class="cg-sb-fav" href="#"><img src="img/fav-a.svg" alt="favourite"></a>
-											<a class="cg-sb-share" href="#"><img src="img/share-a.svg" alt="share"></a>
+                                            <button type="button" class="cg-sb-share cg-tooltip-button"><img src="img/share-a.svg" alt="share"></button>
+                                            <div class="cg-share-block cg-tooltip cg-tooltip-left">
+                                                <button type="button"><img src="img/close.svg" alt="close"></button>
+                                                <div class="cg-share-slack">
+                                                    <a href="#">Slack</a>
+                                                </div>
+                                                <div class="cg-share-fm">
+                                                    <a href="#">Facebook Messenger</a>
+                                                </div>
+                                                <div class="cg-share-wa">
+                                                    <a href="#">WhatsApp</a>
+                                                </div>
+                                                <div class="cg-share-em">
+                                                    <a href="#">E-Mail</a>
+                                                </div>
+                                            </div>
 										</div>
 									</div>
 									<button class="cg-sb-button" type="button"></button>
@@ -410,13 +503,40 @@
 										</p>
 									</div>
 									<div class="cg-sb-bottom">
-										<div class="cg-sb-rating">
-											<button type="button"><img src="img/like-a.svg" alt="like"></button>
-											<button type="button"><img src="img/dislike-a.svg" alt="dislike"></button>
-										</div>
+                                        <div class="cg-sb-rating">
+                                            <button type="button" class="cg-sb-like"><img src="img/like-a.svg" alt="like"></button>
+                                            <button class="cg-tooltip-button cg-sb-dislike" type="button"><img src="img/dislike-a.svg" alt="dislike"></button>
+                                            <div class="cg-tooltip-dislike cg-tooltip cg-tooltip-left">
+                                                <button type="button"><img src="img/close.svg" alt="close"></button>
+                                                <div>
+                                                    <a href="#">It Makes No Sense</a>
+                                                </div>
+                                                <div>
+                                                    <a href="#">It Is Not Relevant To Me</a>
+                                                </div>
+                                                <div>
+                                                    <a href="#">I Have Already Seen It</a>
+                                                </div>
+                                            </div>
+                                        </div>
 										<div class="cg-sb-rs">
 											<a class="cg-sb-fav" href="#"><img src="img/fav-a.svg" alt="favourite"></a>
-											<a class="cg-sb-share" href="#"><img src="img/share-a.svg" alt="share"></a>
+                                            <button type="button" class="cg-sb-share cg-tooltip-button"><img src="img/share-a.svg" alt="share"></button>
+                                            <div class="cg-share-block cg-tooltip cg-tooltip-left">
+                                                <button type="button"><img src="img/close.svg" alt="close"></button>
+                                                <div class="cg-share-slack">
+                                                    <a href="#">Slack</a>
+                                                </div>
+                                                <div class="cg-share-fm">
+                                                    <a href="#">Facebook Messenger</a>
+                                                </div>
+                                                <div class="cg-share-wa">
+                                                    <a href="#">WhatsApp</a>
+                                                </div>
+                                                <div class="cg-share-em">
+                                                    <a href="#">E-Mail</a>
+                                                </div>
+                                            </div>
 										</div>
 									</div>
 								</div>
@@ -438,13 +558,40 @@
 										</div>
 									</div>
 									<div class="cg-sb-bottom">
-										<div class="cg-sb-rating">
-											<button type="button"><img src="img/like-a.svg" alt="like"></button>
-											<button type="button"><img src="img/dislike-a.svg" alt="dislike"></button>
-										</div>
+                                        <div class="cg-sb-rating">
+                                            <button type="button" class="cg-sb-like"><img src="img/like-a.svg" alt="like"></button>
+                                            <button class="cg-tooltip-button cg-sb-dislike" type="button"><img src="img/dislike-a.svg" alt="dislike"></button>
+                                            <div class="cg-tooltip-dislike cg-tooltip cg-tooltip-left">
+                                                <button type="button"><img src="img/close.svg" alt="close"></button>
+                                                <div>
+                                                    <a href="#">It Makes No Sense</a>
+                                                </div>
+                                                <div>
+                                                    <a href="#">It Is Not Relevant To Me</a>
+                                                </div>
+                                                <div>
+                                                    <a href="#">I Have Already Seen It</a>
+                                                </div>
+                                            </div>
+                                        </div>
 										<div class="cg-sb-rs">
 											<a class="cg-sb-fav" href="#"><img src="img/fav-a.svg" alt="favourite"></a>
-											<a class="cg-sb-share" href="#"><img src="img/share-a.svg" alt="share"></a>
+                                            <button type="button" class="cg-sb-share cg-tooltip-button"><img src="img/share-a.svg" alt="share"></button>
+                                            <div class="cg-share-block cg-tooltip cg-tooltip-left">
+                                                <button type="button"><img src="img/close.svg" alt="close"></button>
+                                                <div class="cg-share-slack">
+                                                    <a href="#">Slack</a>
+                                                </div>
+                                                <div class="cg-share-fm">
+                                                    <a href="#">Facebook Messenger</a>
+                                                </div>
+                                                <div class="cg-share-wa">
+                                                    <a href="#">WhatsApp</a>
+                                                </div>
+                                                <div class="cg-share-em">
+                                                    <a href="#">E-Mail</a>
+                                                </div>
+                                            </div>
 										</div>
 									</div>
 									<button class="cg-sb-button" type="button"></button>
@@ -472,13 +619,40 @@
 										</div>
 									</div>
 									<div class="cg-sb-bottom">
-										<div class="cg-sb-rating">
-											<button type="button"><img src="img/like-a.svg" alt="like"></button>
-											<button type="button"><img src="img/dislike-a.svg" alt="dislike"></button>
-										</div>
+                                        <div class="cg-sb-rating">
+                                            <button type="button" class="cg-sb-like"><img src="img/like-a.svg" alt="like"></button>
+                                            <button class="cg-tooltip-button cg-sb-dislike" type="button"><img src="img/dislike-a.svg" alt="dislike"></button>
+                                            <div class="cg-tooltip-dislike cg-tooltip cg-tooltip-left">
+                                                <button type="button"><img src="img/close.svg" alt="close"></button>
+                                                <div>
+                                                    <a href="#">It Makes No Sense</a>
+                                                </div>
+                                                <div>
+                                                    <a href="#">It Is Not Relevant To Me</a>
+                                                </div>
+                                                <div>
+                                                    <a href="#">I Have Already Seen It</a>
+                                                </div>
+                                            </div>
+                                        </div>
 										<div class="cg-sb-rs">
 											<a class="cg-sb-fav" href="#"><img src="img/fav-a.svg" alt="favourite"></a>
-											<a class="cg-sb-share" href="#"><img src="img/share-a.svg" alt="share"></a>
+                                            <button type="button" class="cg-sb-share cg-tooltip-button"><img src="img/share-a.svg" alt="share"></button>
+                                            <div class="cg-share-block cg-tooltip cg-tooltip-left">
+                                                <button type="button"><img src="img/close.svg" alt="close"></button>
+                                                <div class="cg-share-slack">
+                                                    <a href="#">Slack</a>
+                                                </div>
+                                                <div class="cg-share-fm">
+                                                    <a href="#">Facebook Messenger</a>
+                                                </div>
+                                                <div class="cg-share-wa">
+                                                    <a href="#">WhatsApp</a>
+                                                </div>
+                                                <div class="cg-share-em">
+                                                    <a href="#">E-Mail</a>
+                                                </div>
+                                            </div>
 										</div>
 									</div>
 									<button class="cg-sb-button" type="button"></button>
@@ -506,13 +680,40 @@
 										</div>
 									</div>
 									<div class="cg-sb-bottom">
-										<div class="cg-sb-rating">
-											<button type="button"><img src="img/like-a.svg" alt="like"></button>
-											<button type="button"><img src="img/dislike-a.svg" alt="dislike"></button>
-										</div>
+                                        <div class="cg-sb-rating">
+                                            <button type="button" class="cg-sb-like"><img src="img/like-a.svg" alt="like"></button>
+                                            <button class="cg-tooltip-button cg-sb-dislike" type="button"><img src="img/dislike-a.svg" alt="dislike"></button>
+                                            <div class="cg-tooltip-dislike cg-tooltip cg-tooltip-left">
+                                                <button type="button"><img src="img/close.svg" alt="close"></button>
+                                                <div>
+                                                    <a href="#">It Makes No Sense</a>
+                                                </div>
+                                                <div>
+                                                    <a href="#">It Is Not Relevant To Me</a>
+                                                </div>
+                                                <div>
+                                                    <a href="#">I Have Already Seen It</a>
+                                                </div>
+                                            </div>
+                                        </div>
 										<div class="cg-sb-rs">
 											<a class="cg-sb-fav" href="#"><img src="img/fav-a.svg" alt="favourite"></a>
-											<a class="cg-sb-share" href="#"><img src="img/share-a.svg" alt="share"></a>
+                                            <button type="button" class="cg-sb-share cg-tooltip-button"><img src="img/share-a.svg" alt="share"></button>
+                                            <div class="cg-share-block cg-tooltip cg-tooltip-left">
+                                                <button type="button"><img src="img/close.svg" alt="close"></button>
+                                                <div class="cg-share-slack">
+                                                    <a href="#">Slack</a>
+                                                </div>
+                                                <div class="cg-share-fm">
+                                                    <a href="#">Facebook Messenger</a>
+                                                </div>
+                                                <div class="cg-share-wa">
+                                                    <a href="#">WhatsApp</a>
+                                                </div>
+                                                <div class="cg-share-em">
+                                                    <a href="#">E-Mail</a>
+                                                </div>
+                                            </div>
 										</div>
 									</div>
 									<button class="cg-sb-button" type="button"></button>
@@ -556,13 +757,40 @@
 										</p>
 									</div>
 									<div class="cg-sb-bottom">
-										<div class="cg-sb-rating">
-											<button type="button"><img src="img/like-a.svg" alt="like"></button>
-											<button type="button"><img src="img/dislike-a.svg" alt="dislike"></button>
-										</div>
+                                        <div class="cg-sb-rating">
+                                            <button type="button" class="cg-sb-like"><img src="img/like-a.svg" alt="like"></button>
+                                            <button class="cg-tooltip-button cg-sb-dislike" type="button"><img src="img/dislike-a.svg" alt="dislike"></button>
+                                            <div class="cg-tooltip-dislike cg-tooltip cg-tooltip-left">
+                                                <button type="button"><img src="img/close.svg" alt="close"></button>
+                                                <div>
+                                                    <a href="#">It Makes No Sense</a>
+                                                </div>
+                                                <div>
+                                                    <a href="#">It Is Not Relevant To Me</a>
+                                                </div>
+                                                <div>
+                                                    <a href="#">I Have Already Seen It</a>
+                                                </div>
+                                            </div>
+                                        </div>
 										<div class="cg-sb-rs">
 											<a class="cg-sb-fav" href="#"><img src="img/fav-a.svg" alt="favourite"></a>
-											<a class="cg-sb-share" href="#"><img src="img/share-a.svg" alt="share"></a>
+                                            <button type="button" class="cg-sb-share cg-tooltip-button"><img src="img/share-a.svg" alt="share"></button>
+                                            <div class="cg-share-block cg-tooltip cg-tooltip-left">
+                                                <button type="button"><img src="img/close.svg" alt="close"></button>
+                                                <div class="cg-share-slack">
+                                                    <a href="#">Slack</a>
+                                                </div>
+                                                <div class="cg-share-fm">
+                                                    <a href="#">Facebook Messenger</a>
+                                                </div>
+                                                <div class="cg-share-wa">
+                                                    <a href="#">WhatsApp</a>
+                                                </div>
+                                                <div class="cg-share-em">
+                                                    <a href="#">E-Mail</a>
+                                                </div>
+                                            </div>
 										</div>
 									</div>
 								</div>
@@ -606,11 +834,19 @@
 														<h4>
 															Segment detalization
 														</h4>
-														<p class="cg-p-q">
+														<div class="cg-p-q">
 															Learn how we define the exact<br>
 															segment with anomaly
-															<span>?</span>
-														</p>
+															<div>
+																<button type="button" class="cg-tooltip-button">?</button>
+																<div class="cg-tooltip-q cg-tooltip cg-tooltip-left">
+																	<button type="button"><img src="img/close-w.svg" alt="close"></button>
+																	<p>
+																		Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+																	</p>
+																</div>
+															</div>
+														</div>
 														<div class="cg-sb-labels">
 															<button type="button">
 																Ad format: <span>carousel</span>
@@ -641,28 +877,47 @@
 												<div class="cg-charts-wrap">
 													<div class="cg-charts-top">
 														<div class="cg-ch-crt">
-															Convertion rate: <span><span>0.21</span>%</span>
+															<div>
+																Convertion rate: <span><span>0.21</span>%</span>
+															</div>
+															<div class="cg-ch-crt-text">45% better than others</div>
+															<button type="button">45% better than others</button>
 														</div>
 														<div class="cg-ch-choose">
-															<div class="cg-ch-cr">
+															<div class="cg-ch-cr active">
 																Conversion rate <span>3%</span>
 																<button type="button">Show On Chart</button>
+																<div class="cg-ch-tooltip">
+																	45% better than others
+																</div>
 															</div>
 															<div class="cg-ch-cpc">
 																CPC <span>56%</span>
 																<button type="button">Show On Chart</button>
+																<div class="cg-ch-tooltip">
+																	45% better than others
+																</div>
 															</div>
 															<div class="cg-ch-ctr">
 																CTR <span>45%</span>
 																<button type="button">Show On Chart</button>
+																<div class="cg-ch-tooltip">
+																	45% better than others
+																</div>
 															</div>
 															<div class="cg-ch-cpm">
 																CPM <span>30%</span>
 																<button type="button">Show On Chart</button>
+																<div class="cg-ch-tooltip">
+																	45% better than others
+																</div>
 															</div>
 															<div class="cg-ch-lsd">
 																LSD <span>24%</span>
 																<button type="button">Show On Chart</button>
+																<div class="cg-ch-tooltip">
+																	45% better than others
+																</div>
 															</div>
 														</div>
 													</div>
@@ -811,23 +1066,13 @@
 																		</div>
 																		<div class="cg-hc-legend">
 																			<h5>Chart legend:</h5>
-																			<div>
-																				<div class="cg-hc-legend-block">
-																					<div>real:</div>
-																					<ul>
-																						<li>normal</li>
-																						<li>anomalous</li>
-																					</ul>
-																				</div>
-																				<div class="cg-hc-legend-block">
-																					<div>estimated:</div>
-																					<ul>
-																						<li>normal</li>
-																						<li>projected values</li>
-																						<li>anomalous</li>
-																						<li>real value</li>
-																					</ul>
-																				</div>
+																			<div class="cg-hc-legend-block">
+																				<ul>
+																					<li>interpolated ctr</li>
+																					<li>given ctr</li>
+																					<li>confidence interval</li>
+																					<li>outlier</li>
+																				</ul>
 																			</div>
 																		</div>
 																	</div>
@@ -846,13 +1091,40 @@
 										</div>
 									</div>
 									<div class="cg-sb-bottom">
-										<div class="cg-sb-rating">
-											<button type="button"><img src="img/like-a.svg" alt="like"></button>
-											<button type="button"><img src="img/dislike-a.svg" alt="dislike"></button>
-										</div>
+                                        <div class="cg-sb-rating">
+                                            <button type="button" class="cg-sb-like"><img src="img/like-a.svg" alt="like"></button>
+                                            <button class="cg-tooltip-button cg-sb-dislike" type="button"><img src="img/dislike-a.svg" alt="dislike"></button>
+                                            <div class="cg-tooltip-dislike cg-tooltip cg-tooltip-left">
+                                                <button type="button"><img src="img/close.svg" alt="close"></button>
+                                                <div>
+                                                    <a href="#">It Makes No Sense</a>
+                                                </div>
+                                                <div>
+                                                    <a href="#">It Is Not Relevant To Me</a>
+                                                </div>
+                                                <div>
+                                                    <a href="#">I Have Already Seen It</a>
+                                                </div>
+                                            </div>
+                                        </div>
 										<div class="cg-sb-rs">
 											<a class="cg-sb-fav" href="#"><img src="img/fav-a.svg" alt="favourite"></a>
-											<a class="cg-sb-share" href="#"><img src="img/share-a.svg" alt="share"></a>
+                                            <button type="button" class="cg-sb-share cg-tooltip-button"><img src="img/share-a.svg" alt="share"></button>
+                                            <div class="cg-share-block cg-tooltip cg-tooltip-left">
+                                                <button type="button"><img src="img/close.svg" alt="close"></button>
+                                                <div class="cg-share-slack">
+                                                    <a href="#">Slack</a>
+                                                </div>
+                                                <div class="cg-share-fm">
+                                                    <a href="#">Facebook Messenger</a>
+                                                </div>
+                                                <div class="cg-share-wa">
+                                                    <a href="#">WhatsApp</a>
+                                                </div>
+                                                <div class="cg-share-em">
+                                                    <a href="#">E-Mail</a>
+                                                </div>
+                                            </div>
 										</div>
 									</div>
 									<button class="cg-sb-button" type="button"></button>
@@ -894,11 +1166,19 @@
 														<h4>
 															Segment detalization
 														</h4>
-														<p class="cg-p-q">
+														<div class="cg-p-q">
 															Learn how we define the exact<br>
 															segment with anomaly
-															<span>?</span>
-														</p>
+															<div>
+																<button type="button" class="cg-tooltip-button">?</button>
+																<div class="cg-tooltip-q cg-tooltip cg-tooltip-left">
+																	<button type="button"><img src="img/close-w.svg" alt="close"></button>
+																	<p>
+																		Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+																	</p>
+																</div>
+															</div>
+														</div>
 														<div class="cg-sb-labels">
 															<button type="button">
 																Ad format: <span>carousel</span>
@@ -946,28 +1226,47 @@
 												<div class="cg-charts-wrap">
 													<div class="cg-charts-top">
 														<div class="cg-ch-crt">
-															Convertion rate: <span><span>0.21</span>%</span>
+															<div>
+																Convertion rate: <span><span>0.21</span>%</span>
+															</div>
+															<div class="cg-ch-crt-text">45% better than others</div>
+															<button type="button">45% better than others</button>
 														</div>
 														<div class="cg-ch-choose">
 															<div class="cg-ch-cr">
 																Conversion rate <span>3%</span>
 																<button type="button">Show On Chart</button>
+																<div class="cg-ch-tooltip">
+																	45% better than others
+																</div>
 															</div>
 															<div class="cg-ch-cpc">
 																CPC <span>56%</span>
 																<button type="button">Show On Chart</button>
+																<div class="cg-ch-tooltip">
+																	45% better than others
+																</div>
 															</div>
 															<div class="cg-ch-ctr">
 																CTR <span>45%</span>
 																<button type="button">Show On Chart</button>
+																<div class="cg-ch-tooltip">
+																	45% better than others
+																</div>
 															</div>
 															<div class="cg-ch-cpm">
 																CPM <span>30%</span>
 																<button type="button">Show On Chart</button>
+																<div class="cg-ch-tooltip">
+																	45% better than others
+																</div>
 															</div>
 															<div class="cg-ch-lsd">
 																LSD <span>24%</span>
 																<button type="button">Show On Chart</button>
+																<div class="cg-ch-tooltip">
+																	45% better than others
+																</div>
 															</div>
 														</div>
 													</div>
@@ -1116,23 +1415,13 @@
 																		</div>
 																		<div class="cg-hc-legend">
 																			<h5>Chart legend:</h5>
-																			<div>
-																				<div class="cg-hc-legend-block">
-																					<div>real:</div>
-																					<ul>
-																						<li>normal</li>
-																						<li>anomalous</li>
-																					</ul>
-																				</div>
-																				<div class="cg-hc-legend-block">
-																					<div>estimated:</div>
-																					<ul>
-																						<li>normal</li>
-																						<li>projected values</li>
-																						<li>anomalous</li>
-																						<li>real value</li>
-																					</ul>
-																				</div>
+																			<div class="cg-hc-legend-block">
+																				<ul>
+																					<li>interpolated ctr</li>
+																					<li>given ctr</li>
+																					<li>confidence interval</li>
+																					<li>outlier</li>
+																				</ul>
 																			</div>
 																		</div>
 																	</div>
@@ -1151,13 +1440,40 @@
 										</div>
 									</div>
 									<div class="cg-sb-bottom">
-										<div class="cg-sb-rating">
-											<button type="button"><img src="img/like-a.svg" alt="like"></button>
-											<button type="button"><img src="img/dislike-a.svg" alt="dislike"></button>
-										</div>
+                                        <div class="cg-sb-rating">
+                                            <button type="button" class="cg-sb-like"><img src="img/like-a.svg" alt="like"></button>
+                                            <button class="cg-tooltip-button cg-sb-dislike" type="button"><img src="img/dislike-a.svg" alt="dislike"></button>
+                                            <div class="cg-tooltip-dislike cg-tooltip cg-tooltip-left">
+                                                <button type="button"><img src="img/close.svg" alt="close"></button>
+                                                <div>
+                                                    <a href="#">It Makes No Sense</a>
+                                                </div>
+                                                <div>
+                                                    <a href="#">It Is Not Relevant To Me</a>
+                                                </div>
+                                                <div>
+                                                    <a href="#">I Have Already Seen It</a>
+                                                </div>
+                                            </div>
+                                        </div>
 										<div class="cg-sb-rs">
 											<a class="cg-sb-fav" href="#"><img src="img/fav-a.svg" alt="favourite"></a>
-											<a class="cg-sb-share" href="#"><img src="img/share-a.svg" alt="share"></a>
+                                            <button type="button" class="cg-sb-share cg-tooltip-button"><img src="img/share-a.svg" alt="share"></button>
+                                            <div class="cg-share-block cg-tooltip cg-tooltip-left">
+                                                <button type="button"><img src="img/close.svg" alt="close"></button>
+                                                <div class="cg-share-slack">
+                                                    <a href="#">Slack</a>
+                                                </div>
+                                                <div class="cg-share-fm">
+                                                    <a href="#">Facebook Messenger</a>
+                                                </div>
+                                                <div class="cg-share-wa">
+                                                    <a href="#">WhatsApp</a>
+                                                </div>
+                                                <div class="cg-share-em">
+                                                    <a href="#">E-Mail</a>
+                                                </div>
+                                            </div>
 										</div>
 									</div>
 									<button class="cg-sb-button" type="button"></button>
@@ -1230,7 +1546,8 @@
 						<button type="button"></button>
 						<div class="cg-modal-channel-name"># Gender</div>
 						<div class="cg-modal-channel-drop">
-							<button class="cg-edit-channel" type="button">Edit Channel</button>
+							<a href="#" class="cg-channel-details">Edit Channel</a>
+							<a href="#" class="cg-edit-channel">Edit Channel</a>
 							<a href="#cg-channel-modal-delete" class="cg-edit-delete popup-modal">Delete Channel</a>
 						</div>
 					</div>
@@ -1345,36 +1662,980 @@
 		</div>
 	</div>
 
-	<div id="cg-channel-modal-s" class="mfp-hide cg-modal">
+	<div id="cg-channel-modal-s" class="mfp-hide cg-modal cg-modal-wide">
 		<h3>
 			<span>Create A Channel</span>
 			<a class="popup-modal-dismiss" href="#"><img src="img/x.svg" alt="x"></a>
 		</h3>
-		<form>
-			<input class="cg-form-style" type="text" placeholder="Name">
-			<select class="cg-form-style">
-				<option>Data source</option>
-				<option>Data source 2</option>
-				<option>Data source 3</option>
-			</select>
-			<div class="cg-ch-form-block">
-				<h6>Dimensions</h6>
-				<div>
-					<input type="checkbox" id="ch1">
-					<span></span>
-					<label for="ch1">Dimension name</label>
+		<form class="cg-modal-flex">
+			<div>
+				<div class="cg-modal-block">
+					<div class="cg-mb-top">
+						<h4>Channel Name</h4>
+					</div>
+					<div>
+						<input class="cg-form-style" type="text" placeholder="Type the name of new channel">
+					</div>
 				</div>
-				<div>
-					<input type="checkbox" id="ch2">
-					<span></span>
-					<label for="ch2">Dimension name</label>
+				<div class="cg-modal-block">
+					<div class="cg-mb-top">
+						<h4>Data Source</h4>
+					</div>
+					<div class="cg-form-drop cg-drop-block">
+						<button type="button">Select the entries</button>
+						<div>
+							<ul>
+								<li class="cg-ds-fb">
+									<label for="mch1">Facebook</label>
+									<input type="checkbox" id="mch1">
+									<span></span>
+								</li>
+								<li class="cg-ds-ga">
+									<label for="mch2">Google Adwords</label>
+									<input type="checkbox" id="mch2">
+									<span></span>
+								</li>
+								<li class="cg-ds-gan">
+									<label for="mch3">Google Analitycs</label>
+									<input type="checkbox" id="mch3">
+									<span></span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="cg-modal-block">
+					<div class="cg-mb-top">
+						<h4>Sign Of Insight</h4>
+					</div>
+					<div class="cg-form-drop cg-drop-block">
+						<button type="button">Select the entries</button>
+						<div>
+							<ul>
+								<li>
+									test 1
+								</li>
+								<li>
+									test 2
+								</li>
+								<li>
+									test 3
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="cg-modal-block">
+					<div class="cg-mb-top">
+						<h4>Access / Visibility</h4>
+					</div>
+					<div class="cg-form-drop cg-drop-block">
+						<button type="button">Select the entries</button>
+						<div>
+							<ul>
+								<li>
+									Everybody in a project
+								</li>
+								<li>
+									Invite People
+								</li>
+							</ul>
+						</div>
+					</div>
 				</div>
 			</div>
-			<div class="cg-text-center">
-				<button type="button" class="cg-btn-link">
-					<span>+</span>
-					Create a channel
-				</button>
+			<div>
+				<div class="cg-modal-block">
+					<div class="cg-mb-top">
+						<h4>Dimensions</h4>
+						<div>
+							<input id="mcht1" type="checkbox">
+							<span></span>
+							<label for="mcht1">Expand All</label>
+						</div>
+					</div>
+					<div class="cg-acc-list cg-scroll-out">
+						<div class="cg-scroll">
+							<div class="cg-accordeon-block cg-drop-block">
+								<button type="button">User</button>
+								<div>
+									<div class="cg-scroll">
+										<div class="cg-accb-in">
+											<div>
+												<input id="mch4654" type="checkbox">
+												<span></span>
+												<label for="mch4654">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch5" type="checkbox">
+												<span></span>
+												<label for="mch5">
+													<span>ga:adSlot</span>
+													<span>Ad Slot</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch6" type="checkbox">
+												<span></span>
+												<label for="mch6">
+													<span>ga:adDistributionNetwork</span>
+													<span>Ad Distribution Network</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch7" type="checkbox">
+												<span></span>
+												<label for="mch7">
+													<span>ga:adMatchType</span>
+													<span>Query Match Type</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch8" type="checkbox">
+												<span></span>
+												<label for="mch8">
+													<span>ga:adKeywordMatchType</span>
+													<span>Keyword Match Type</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch9" type="checkbox">
+												<span></span>
+												<label for="mch9">
+													<span>ga:adMatchedQuery</span>
+													<span>Search Query</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch40" type="checkbox">
+												<span></span>
+												<label for="mch40">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch50" type="checkbox">
+												<span></span>
+												<label for="mch50">
+													<span>ga:adSlot</span>
+													<span>Ad Slot</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch60" type="checkbox">
+												<span></span>
+												<label for="mch60">
+													<span>ga:adDistributionNetwork</span>
+													<span>Ad Distribution Network</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch70" type="checkbox">
+												<span></span>
+												<label for="mch70">
+													<span>ga:adMatchType</span>
+													<span>Query Match Type</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch80" type="checkbox">
+												<span></span>
+												<label for="mch80">
+													<span>ga:adKeywordMatchType</span>
+													<span>Keyword Match Type</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch90" type="checkbox">
+												<span></span>
+												<label for="mch90">
+													<span>ga:adMatchedQuery</span>
+													<span>Search Query</span>
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="cg-accordeon-block cg-drop-block">
+								<button type="button">Session</button>
+								<div>
+									<div class="cg-scroll">
+										<div class="cg-accb-in">
+											<div>
+												<input id="mch4" type="checkbox">
+												<span></span>
+												<label for="mch4">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch11" type="checkbox">
+												<span></span>
+												<label for="mch11">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch12" type="checkbox">
+												<span></span>
+												<label for="mch12">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch13" type="checkbox">
+												<span></span>
+												<label for="mch13">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch14" type="checkbox">
+												<span></span>
+												<label for="mch14">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch15" type="checkbox">
+												<span></span>
+												<label for="mch15">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch4456" type="checkbox">
+												<span></span>
+												<label for="mch4456">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="cg-accordeon-block cg-drop-block">
+								<button type="button">Traffic sources</button>
+								<div>
+									<div class="cg-scroll">
+										<div class="cg-accb-in">
+											<div>
+												<input id="mch4123" type="checkbox">
+												<span></span>
+												<label for="mch4123">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch11123" type="checkbox">
+												<span></span>
+												<label for="mch11123">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch12123" type="checkbox">
+												<span></span>
+												<label for="mch12123">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch13123" type="checkbox">
+												<span></span>
+												<label for="mch13123">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch14123" type="checkbox">
+												<span></span>
+												<label for="mch14123">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch15123" type="checkbox">
+												<span></span>
+												<label for="mch15123">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch4234" type="checkbox">
+												<span></span>
+												<label for="mch4234">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="cg-accordeon-block cg-drop-block">
+								<button type="button">Adwords</button>
+								<div>
+									<div class="cg-scroll">
+										<div class="cg-accb-in">
+											<div>
+												<input id="mch454" type="checkbox">
+												<span></span>
+												<label for="mch454">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch1154" type="checkbox">
+												<span></span>
+												<label for="mch1154">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch1254" type="checkbox">
+												<span></span>
+												<label for="mch1254">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch1354" type="checkbox">
+												<span></span>
+												<label for="mch1354">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch1454" type="checkbox">
+												<span></span>
+												<label for="mch1454">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch1554" type="checkbox">
+												<span></span>
+												<label for="mch1554">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch4543" type="checkbox">
+												<span></span>
+												<label for="mch4543">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="cg-accordeon-block cg-drop-block">
+								<button type="button">Goal Conversions</button>
+								<div>
+									<div class="cg-scroll">
+										<div class="cg-accb-in">
+											<div>
+												<input id="mch467" type="checkbox">
+												<span></span>
+												<label for="mch467">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch1167" type="checkbox">
+												<span></span>
+												<label for="mch1167">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch1267" type="checkbox">
+												<span></span>
+												<label for="mch1267">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch1367" type="checkbox">
+												<span></span>
+												<label for="mch1367">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch14677" type="checkbox">
+												<span></span>
+												<label for="mch14677">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch156777" type="checkbox">
+												<span></span>
+												<label for="mch156777">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch4567" type="checkbox">
+												<span></span>
+												<label for="mch4567">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="cg-accordeon-block cg-drop-block">
+								<button type="button">Platform Or Device</button>
+								<div>
+									<div class="cg-scroll">
+										<div class="cg-accb-in">
+											<div>
+												<input id="mch477" type="checkbox">
+												<span></span>
+												<label for="mch477">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch1177" type="checkbox">
+												<span></span>
+												<label for="mch1177">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch1277" type="checkbox">
+												<span></span>
+												<label for="mch1277">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch1377" type="checkbox">
+												<span></span>
+												<label for="mch1377">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch1477" type="checkbox">
+												<span></span>
+												<label for="mch1477">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch1577" type="checkbox">
+												<span></span>
+												<label for="mch1577">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch4777" type="checkbox">
+												<span></span>
+												<label for="mch4777">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="cg-accordeon-block cg-drop-block">
+								<button type="button">Traffic Sources</button>
+								<div>
+									<div class="cg-scroll">
+										<div class="cg-accb-in">
+											<div>
+												<input id="mch488" type="checkbox">
+												<span></span>
+												<label for="mch488">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch1188" type="checkbox">
+												<span></span>
+												<label for="mch1188">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch1288" type="checkbox">
+												<span></span>
+												<label for="mch1288">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch1388" type="checkbox">
+												<span></span>
+												<label for="mch1388">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch1488" type="checkbox">
+												<span></span>
+												<label for="mch1488">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch1588" type="checkbox">
+												<span></span>
+												<label for="mch1588">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch489" type="checkbox">
+												<span></span>
+												<label for="mch489">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="cg-accordeon-block cg-drop-block">
+								<button type="button">Adwords</button>
+								<div>
+									<div class="cg-scroll">
+										<div class="cg-accb-in">
+											<div>
+												<input id="mch499" type="checkbox">
+												<span></span>
+												<label for="mch499">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch119" type="checkbox">
+												<span></span>
+												<label for="mch119">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch129" type="checkbox">
+												<span></span>
+												<label for="mch129">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch139" type="checkbox">
+												<span></span>
+												<label for="mch139">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch149" type="checkbox">
+												<span></span>
+												<label for="mch149">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch159" type="checkbox">
+												<span></span>
+												<label for="mch159">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch4999" type="checkbox">
+												<span></span>
+												<label for="mch4999">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="cg-accordeon-block cg-drop-block">
+								<button type="button">Goal Convensoins</button>
+								<div>
+									<div class="cg-scroll">
+										<div class="cg-accb-in">
+											<div>
+												<input id="mch4333" type="checkbox">
+												<span></span>
+												<label for="mch4333">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch11333" type="checkbox">
+												<span></span>
+												<label for="mch11333">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch1233" type="checkbox">
+												<span></span>
+												<label for="mch1233">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch1334" type="checkbox">
+												<span></span>
+												<label for="mch1334">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch1433" type="checkbox">
+												<span></span>
+												<label for="mch1433">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch1544" type="checkbox">
+												<span></span>
+												<label for="mch1544">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch424" type="checkbox">
+												<span></span>
+												<label for="mch424">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="cg-accordeon-block cg-drop-block">
+								<button type="button">Adwords</button>
+								<div>
+									<div class="cg-scroll">
+										<div class="cg-accb-in">
+											<div>
+												<input id="mch4222" type="checkbox">
+												<span></span>
+												<label for="mch4222">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch1122" type="checkbox">
+												<span></span>
+												<label for="mch1122">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch1222" type="checkbox">
+												<span></span>
+												<label for="mch1222">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch1322" type="checkbox">
+												<span></span>
+												<label for="mch1322">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch1422" type="checkbox">
+												<span></span>
+												<label for="mch1422">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch1522" type="checkbox">
+												<span></span>
+												<label for="mch1522">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch422" type="checkbox">
+												<span></span>
+												<label for="mch422">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="cg-accordeon-block cg-drop-block">
+								<button type="button">Goal Convensoins</button>
+								<div>
+									<div class="cg-scroll">
+										<div class="cg-accb-in">
+											<div>
+												<input id="mch413" type="checkbox">
+												<span></span>
+												<label for="mch413">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch111" type="checkbox">
+												<span></span>
+												<label for="mch111">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch121" type="checkbox">
+												<span></span>
+												<label for="mch121">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch131" type="checkbox">
+												<span></span>
+												<label for="mch131">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch141" type="checkbox">
+												<span></span>
+												<label for="mch141">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch151" type="checkbox">
+												<span></span>
+												<label for="mch151">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+											<div>
+												<input id="mch411" type="checkbox">
+												<span></span>
+												<label for="mch411">
+													<span>ga:adGroup</span>
+													<span>Ad Group</span>
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div class="cg-modal-block">
+					<div class="cg-mb-top">
+						<h4>Metrics</h4>
+						<div>
+							<input id="mcht2" type="checkbox">
+							<span></span>
+							<label for="mcht2">Select All</label>
+						</div>
+					</div>
+					<div>
+						<div class="cg-mblock">
+							<h4>Adwords</h4>
+							<div>
+								<div>
+									<input id="mch41" type="checkbox">
+									<label for="mch41">
+										<span>ga:adGroup</span>
+										<span>Ad Group</span>
+									</label>
+								</div>
+								<div>
+									<input id="mch42" type="checkbox">
+									<label for="mch42">
+										<span>ga:adGroup</span>
+										<span>Ad Group</span>
+									</label>
+								</div>
+								<div>
+									<input id="mch43" type="checkbox">
+									<label for="mch43">
+										<span>ga:adGroup</span>
+										<span>Ad Group</span>
+									</label>
+								</div>
+								<div>
+									<input id="mch44" type="checkbox">
+									<label for="mch44">
+										<span>ga:adGroup</span>
+										<span>Ad Group</span>
+									</label>
+								</div>
+								<div>
+									<input id="mch45" type="checkbox">
+									<label for="mch45">
+										<span>ga:adGroup</span>
+										<span>Ad Group</span>
+									</label>
+								</div>
+								<div>
+									<input id="mch46" type="checkbox">
+									<label for="mch46">
+										<span>ga:adGroup</span>
+										<span>Ad Group</span>
+									</label>
+								</div>
+								<div>
+									<input id="mch47" type="checkbox">
+									<label for="mch47">
+										<span>ga:adGroup</span>
+										<span>Ad Group</span>
+									</label>
+								</div>
+							</div>
+						</div>
+						<div class="cg-mblock">
+							<h4>Goal Conversions</h4>
+							<div>
+								<div>
+									<input id="mch51" type="checkbox">
+									<label for="mch51">
+										<span>ga:adGroup</span>
+										<span>Ad Group</span>
+									</label>
+								</div>
+								<div>
+									<input id="mch52" type="checkbox">
+									<label for="mch42">
+										<span>ga:adGroup</span>
+										<span>Ad Group</span>
+									</label>
+								</div>
+								<div>
+									<input id="mch53" type="checkbox">
+									<label for="mch43">
+										<span>ga:adGroup</span>
+										<span>Ad Group</span>
+									</label>
+								</div>
+								<div>
+									<input id="mch54" type="checkbox">
+									<label for="mch54">
+										<span>ga:adGroup</span>
+										<span>Ad Group</span>
+									</label>
+								</div>
+								<div>
+									<input id="mch55" type="checkbox">
+									<label for="mch55">
+										<span>ga:adGroup</span>
+										<span>Ad Group</span>
+									</label>
+								</div>
+								<div>
+									<input id="mch56" type="checkbox">
+									<label for="mch56">
+										<span>ga:adGroup</span>
+										<span>Ad Group</span>
+									</label>
+								</div>
+								<div>
+									<input id="mch57" type="checkbox">
+									<label for="mch57">
+										<span>ga:adGroup</span>
+										<span>Ad Group</span>
+									</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</form>
 	</div>
