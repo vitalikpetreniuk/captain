@@ -1,0 +1,20 @@
+<svg width="16" height="16" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>google-analytics-3</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-22567 -703)">
+<g id="google-analytics-3">
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(22577.5 703)" fill="#F2994A"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="translate(22567 708.053)" fill="#F2C94C"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 4.17895 0L 1.28421 0C 0.578948 0 -1.60619e-07 0.578947 -1.60619e-07 1.28421L -1.60619e-07 16L 4.17895 16C 4.88421 16 5.46316 15.4211 5.46316 14.7158L 5.46316 1.28421C 5.46316 0.578947 4.88421 0 4.17895 0Z"/>
+<path id="path1_fill" d="M 5.05263 1.26316L 5.05263 5.47368L 1.26316 5.47368C 0.568421 5.47368 0 6.04211 0 6.73684L 0 9.68421C 0 10.3789 0.568421 10.9474 1.26316 10.9474L 10.5263 10.9474L 10.5263 0L 6.31579 0C 5.62105 0 5.05263 0.568421 5.05263 1.26316Z"/>
+</defs>
+</svg>

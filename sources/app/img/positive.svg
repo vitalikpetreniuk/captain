@@ -1,0 +1,56 @@
+<svg width="40" height="40" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group 2</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-16306 -557)">
+<g id="Group 2">
+<g id="Rectangle 9" filter="url(#filter0_d)">
+<use xlink:href="#path0_fill" transform="translate(16310 559)" fill="#FFFFFF"/>
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(16310 559)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(16310 559)" fill="#4CAF50"/>
+</g>
+</g>
+<g id="line-chart">
+<g id="Group">
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path2_fill" transform="translate(16319.1 576.573)" fill="#4CAF50"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path3_fill" transform="translate(16322.7 576.541)" fill="#4CAF50"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path4_fill" transform="translate(16326.3 575.634)" fill="#4CAF50"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path5_fill" transform="translate(16329.8 572.306)" fill="#4CAF50"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path6_fill" transform="translate(16318 568)" fill="#4CAF50"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d" filterUnits="userSpaceOnUse" x="16306" y="557" width="40" height="40" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dx="0" dy="2"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<path id="path0_fill" d="M 0 16C 0 7.16344 7.16344 0 16 0C 24.8366 0 32 7.16344 32 16C 32 24.8366 24.8366 32 16 32C 7.16344 32 0 24.8366 0 16Z"/>
+<path id="path1_stroke_2x" d="M 16 -5C 4.40202 -5 -5 4.40202 -5 16L 5 16C 5 9.92487 9.92487 5 16 5L 16 -5ZM 16 5C 22.0751 5 27 9.92487 27 16L 37 16C 37 4.40202 27.598 -5 16 -5L 16 5ZM 27 16C 27 22.0751 22.0751 27 16 27L 16 37C 27.598 37 37 27.598 37 16L 27 16ZM 16 27C 9.92487 27 5 22.0751 5 16L -5 16C -5 27.598 4.40202 37 16 37L 16 27Z"/>
+<path id="path2_fill" d="M 0 1.93195L 0 4.4767C 0 4.63151 0.128199 4.76052 0.28927 4.76052L 2.29444 4.76052C 2.45222 4.76052 2.58371 4.63474 2.58371 4.4767L 2.58371 2.67724e-07L 1.1275 1.4288C 0.818503 1.72875 0.424044 1.90292 0 1.93195Z"/>
+<path id="path3_fill" d="M 0 2.67724e-07L 0 4.50895C 0 4.66376 0.128199 4.79278 0.28927 4.79278L 2.29444 4.79278C 2.45222 4.79278 2.58371 4.66699 2.58371 4.50895L 2.58371 1.85454C 2.12679 1.84486 1.69946 1.66747 1.37732 1.35139L 0 2.67724e-07Z"/>
+<path id="path4_fill" d="M 0 2.48024L 0 5.41525C 0 5.57007 0.128199 5.69908 0.28927 5.69908L 2.29444 5.69908C 2.45222 5.69908 2.58371 5.57329 2.58371 5.41525L 2.58371 7.08681e-08L 0.285984 2.25447C 0.19723 2.34156 0.101902 2.41574 0 2.48024Z"/>
+<path id="path5_fill" d="M 2.38977 1.69296e-07L 0 2.34478L 0 8.74375C 0 8.89856 0.128199 9.02758 0.28927 9.02758L 2.29444 9.02758C 2.45222 9.02758 2.58371 8.90179 2.58371 8.74375L 2.58371 0.177391C 2.51797 0.122561 2.46866 0.0741814 2.4325 0.0419285L 2.38977 1.69296e-07Z"/>
+<path id="path6_fill" d="M 15.8638 0.151588C 15.7685 0.0516045 15.6239 4.62611e-08 15.4398 4.62611e-08C 15.4234 4.62611e-08 15.4036 4.62611e-08 15.3872 4.62611e-08C 14.4537 0.0419288 13.5234 0.0870828 12.5898 0.129011C 12.4649 0.135462 12.294 0.141913 12.1592 0.274149C 12.1165 0.316078 12.0836 0.364457 12.0573 0.422512C 11.9192 0.716013 12.1132 0.906305 12.2052 0.996613L 12.4386 1.22883C 12.5997 1.3901 12.7641 1.55136 12.9284 1.7094L 7.28764 7.24722L 4.75324 4.76052C 4.60203 4.61216 4.39822 4.5283 4.18127 4.5283C 3.96432 4.5283 3.7638 4.61216 3.61259 4.76052L 0.236676 8.06966C -0.0788919 8.37929 -0.0788919 8.87921 0.236676 9.18884L 0.387885 9.3372C 0.539095 9.48557 0.742899 9.56942 0.959851 9.56942C 1.1768 9.56942 1.37732 9.48557 1.52853 9.3372L 4.18127 6.7344L 6.71567 9.22109C 6.86688 9.36946 7.07069 9.45331 7.28764 9.45331C 7.50459 9.45331 7.70511 9.36946 7.8596 9.22109L 14.2236 2.97694L 14.9434 3.68005C 15.0289 3.76391 15.1472 3.88002 15.328 3.88002C 15.4036 3.88002 15.4792 3.86067 15.5581 3.81874C 15.6107 3.78971 15.6568 3.75746 15.6962 3.71875C 15.8375 3.58007 15.8638 3.40268 15.8704 3.26399C 15.8967 2.67054 15.9263 2.07708 15.9559 1.48041L 15.9986 0.587002C 16.0085 0.399935 15.9657 0.254798 15.8638 0.151588Z"/>
+</defs>
+</svg>

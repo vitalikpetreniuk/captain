@@ -1,0 +1,21 @@
+<svg width="245" height="180" viewBox="0 0 245 180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Vector 2</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-16188 -775)">
+<g id="Vector 2" filter="url(#filter0_d)">
+<use xlink:href="#path0_fill" transform="translate(16192.5 777)" fill="#50CFC8"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d" filterUnits="userSpaceOnUse" x="16188" y="775" width="245" height="180" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dx="0" dy="2"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<path id="path0_fill" d="M 232.5 0L 4 0C 1.79086 0 0 1.79086 0 4L 0 155.377C 0 157.586 1.79086 159.377 4 159.377L 143.777 159.377C 145.986 159.377 147.777 161.167 147.777 163.377L 147.777 167.1C 147.777 170.55 151.852 172.381 154.433 170.091L 165.364 160.385C 166.096 159.736 167.041 159.377 168.019 159.377L 232.5 159.377C 234.709 159.377 236.5 157.586 236.5 155.377L 236.5 4C 236.5 1.79086 234.709 0 232.5 0Z"/>
+</defs>
+</svg>
