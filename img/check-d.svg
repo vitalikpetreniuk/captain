@@ -1,0 +1,33 @@
+<svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group 8.1</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-19846 -2439)">
+<g id="Group 8.1">
+<g id="Rectangle 16.35" filter="url(#filter0_d)">
+<use xlink:href="#path0_fill" transform="translate(19850 2441)" fill="#CCCCCC"/>
+</g>
+<g id="check-mark">
+<g id="Group">
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="translate(19853 2445)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d" filterUnits="userSpaceOnUse" x="19846" y="2439" width="24" height="24" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dx="0" dy="2"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<path id="path0_fill" d="M 0 2C 0 0.895431 0.895431 0 2 0L 14 0C 15.1046 0 16 0.895431 16 2L 16 14C 16 15.1046 15.1046 16 14 16L 2 16C 0.895431 16 0 15.1046 0 14L 0 2Z"/>
+<path id="path1_fill" d="M 8.87113 0.233102C 8.71598 0.0777007 8.5317 1.25907e-07 8.31901 1.25907e-07C 8.10632 1.25907e-07 7.92247 0.0777437 7.76685 0.233102L 4.39267 3.60737L 2.58892 1.80362C 2.43348 1.64822 2.24963 1.57052 2.03681 1.57052C 1.82399 1.57052 1.63997 1.64826 1.48457 1.80362L 0.233102 3.05526C 0.0776578 3.21053 1.33776e-07 3.39468 1.33776e-07 3.60737C 1.33776e-07 3.81993 0.0776578 4.00408 0.233102 4.1594L 3.84043 7.76677C 3.99583 7.92204 4.17985 8 4.39254 8C 4.60536 8 4.78934 7.92208 4.94483 7.76677L 10.1228 2.58884C 10.2781 2.43361 10.3561 2.24954 10.3561 2.03694C 10.3561 1.82429 10.2784 1.64023 10.1228 1.48482L 8.87113 0.233102Z"/>
+</defs>
+</svg>
