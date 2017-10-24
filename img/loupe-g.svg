@@ -4,28 +4,28 @@
 <g id="Canvas" transform="translate(-18270 -443)">
 <rect x="18270" y="443" width="16" height="16" fill="#E5E5E5"/>
 <clipPath id="clip-0" clip-rule="evenodd">
-<path d="M 18030 282L 18441 282L 18441 1125L 18030 1125L 18030 282Z" fill="#FFFFFF"/>
+<path d="M 18030 282L 18441 282L 18441 1125L 18030 1125L 18030 282Z" fill="#ebeff2"/>
 </clipPath>
 <g id="360 /// Mobile /// Content screen" clip-path="url(#clip-0)">
-<path d="M 18030 282L 18441 282L 18441 1125L 18030 1125L 18030 282Z" fill="#FFFFFF"/>
+<path d="M 18030 282L 18441 282L 18441 1125L 18030 1125L 18030 282Z" fill="#ebeff2"/>
 <g id="Rectangle 15">
 <g id="Rectangle 15">
-<use xlink:href="#path0_fill" transform="translate(18048 370)" fill="#FFFFFF"/>
+<use xlink:href="#path0_fill" transform="translate(18048 370)" fill="#ebeff2"/>
 </g>
 </g>
 <g id="Rectangle 17">
 <g id="Rectangle 17">
-<use xlink:href="#path0_fill" transform="translate(18048 370)" fill="#fff"/>
+<use xlink:href="#path0_fill" transform="translate(18048 370)" fill="#ebeff2"/>
 </g>
 </g>
 <g id="mobile">
 <g id="Rectangle 18">
-<use xlink:href="#path1_fill" transform="translate(18032 282)" fill="#FFFFFF"/>
+<use xlink:href="#path1_fill" transform="translate(18032 282)" fill="#ebeff2"/>
 <mask id="mask0_outline_ins">
 <use xlink:href="#path1_fill" fill="white" transform="translate(18032 282)"/>
 </mask>
 <g mask="url(#mask0_outline_ins)">
-<use xlink:href="#path2_stroke_2x" transform="translate(18032 282)" fill="#fff"/>
+<use xlink:href="#path2_stroke_2x" transform="translate(18032 282)" fill="#ebeff2"/>
 </g>
 </g>
 <g id="Rectangle 21">
@@ -34,12 +34,12 @@
 <use xlink:href="#path0_fill" fill="black" transform="translate(18048 370)"/>
 </mask>
 <g mask="url(#mask1_outline_out)">
-<use xlink:href="#path3_stroke_2x" transform="translate(18048 370)" fill="#fff"/>
+<use xlink:href="#path3_stroke_2x" transform="translate(18048 370)" fill="#ebeff2"/>
 </g>
 </g>
 </g>
 <g id="background">
-<use xlink:href="#path0_fill" transform="translate(18048 370)" fill="#fff"/>
+<use xlink:href="#path0_fill" transform="translate(18048 370)" fill="#ebeff2"/>
 </g>
 <g id="loupe">
 <g id="Group">
