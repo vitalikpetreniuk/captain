@@ -22,7 +22,7 @@
 			left: auto
 			right: 21px
 
-	.cg-tooltip-left
+	.cg-share-block
 		left: auto
 		right: 0
 		transform: none
@@ -45,8 +45,6 @@
 			bottom: -9px
 			top: auto
 
-	.cg-tooltip-q:after
-		border-color: #50cfc8 transparent transparent transparent
 
 
 	.cg-charts-cont .cg-sb-flex
@@ -263,6 +261,33 @@
 	.cg-segment-block .cg-sb-right-in::before, .cg-segment-block.open .cg-sb-right-in::before
 		left: -110px
 
+	.cg-sbw-top > h3
+		text-align: left
+
+		span
+			padding: 0 18px 0 0
+
+	.cg-tooltip
+
+		&:before, &:after
+			display: none
+
+	.cg-tooltip-left
+		bottom: calc(100% + 14px)
+
+	.cg-share-block
+		right: -26px
+
+	.cg-tooltip-dislike
+		top: auto
+		transform: none
+		left: -26px
+
+	.cg-tooltip-q
+		top: auto
+		transform: translate(50%, 0)
+		left: auto
+		right: 0
 
 @media(max-width: 413px)
 

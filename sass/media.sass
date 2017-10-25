@@ -1,0 +1,330 @@
+@media(max-width: 1365px)
+
+	.cg-col-right
+		display: none
+
+	.cg-col-center
+		width: calc(100% - 350px)
+		margin: 0
+		padding: 15px 30px 30px 0
+
+	.cg-center-top, .cg-segments, .cg-main-content
+		padding-right: 0
+
+	.cg-tooltip-bottom
+		right: 0
+
+		&:before
+			left: auto
+			right: 20px
+
+		&:after
+			left: auto
+			right: 21px
+
+	.cg-share-block
+		left: auto
+		right: 0
+		transform: none
+		top: auto
+		bottom: calc(100% + 20px)
+
+		&:before
+			border-width: 10px 8px 0 8px
+			border-color: #ccc transparent transparent transparent
+			left: auto
+			right: 2px
+			bottom: -11px
+			top: auto
+
+		&:after
+			border-width: 9px 7px 0 7px
+			border-color: #ffffff transparent transparent transparent
+			left: auto
+			right: 3px
+			bottom: -9px
+			top: auto
+
+
+
+	.cg-charts-cont .cg-sb-flex
+
+		> div:first-child
+			width: 30%
+
+		> div:last-child
+			width: calc(70% - 16px)
+
+	.cg-ch-choose > div:last-child .cg-ch-tooltip
+		right: 0
+		transform: none
+
+
+
+@media(max-width: 1279px)
+
+	.cg-charts-cont .cg-sb-flex
+		flex-wrap: wrap
+
+		> div
+			width: 100% !important
+
+			+ div
+				margin-top: 30px
+
+	.cg-col-left, .cg-col-left > div
+		width: 285px
+
+	.cg-col-center
+		width: calc(100% - 315px)
+
+	.cg-cl-left
+		width: 76px
+		padding-left: 14px
+		padding-right: 14px
+
+	.cg-cl-right
+		width: calc(100% - 76px)
+
+@media(max-width: 1023px)
+
+	.cg-header
+		position: fixed
+		z-index: 9
+		left: 0
+		top: 0
+		width: 100%
+
+	.cg-col-left-in
+		position: fixed
+		top: 68px
+		left: 0
+		width: 100%
+		z-index: 9
+		visibility: hidden
+		opacity: 0
+		transition: all .2s ease
+
+		&.open
+			visibility: visible
+			opacity: 1
+
+	.cg-container
+		display: block
+
+	.cg-col-center
+		width: 100%
+		padding: 98px 30px 30px
+
+	.cg-col-left, .cg-col-left > div:first-child
+		width: 100%
+		position: relative
+		height: auto
+
+
+	.cg-sb-flex
+		flex-wrap: wrap
+
+		> div
+			width: 100% !important
+
+			+ div
+				margin-top: 30px
+
+	.cg-ssize-block
+		max-width: none
+
+	.cg-main-menu-block
+		width: 100% !important
+
+	.cg-left-menu-button
+		display: block
+
+	.cg-user-button
+		display: none
+
+
+@media(max-width: 767px)
+
+	.cg-link-settings
+		padding: 0
+		width: 16px
+		margin-left: 22px
+
+	.cg-link-users
+		padding: 0
+		width: 20px
+
+	.cg-center-top-links
+		text-indent: -999999px
+		margin-left: 22px
+
+		span
+			display: none
+
+	.cg-center-top
+
+		> div
+			width: auto
+
+			form
+				display: none
+
+			> button
+				display: flex
+				align-items: center
+				justify-content: center
+
+	.cg-sb-free, .cg-banner-block
+		display: none
+
+	.cg-segment-block
+		padding-top: 115px
+
+		> div:first-child
+			width: 100%
+
+		.cg-sb-right
+			width: 100%
+			border-radius: 4px 4px 0 0
+			height: 115px
+			justify-content: center
+
+		.cg-sb-right-in:before
+			left: -132px
+			top: calc(50% - 38px)
+
+	.cg-ch-choose
+		display: block
+
+		> div
+			padding: 5px 135px 5px 0
+			background-position: calc(100% - 125px) 5px
+
+			+ div
+				margin-top: 6px
+
+			button
+				right: 0
+				left: auto
+				order: 2
+				transform: none
+				bottom: 5px
+
+			span
+				position: absolute
+				right: 150px
+				top: 5px
+
+	.cg-ch-tooltip
+		display: none !important
+
+	.cg-hc-legend
+		display: block
+
+		h5
+			width: 100%
+			margin: 0 0 10px
+			padding: 0
+
+	.cg-hc-legend-block
+		width: 100%
+
+	.cg-ch-crt
+		position: relative
+		justify-content: space-between
+		padding-bottom: 25px
+		margin-bottom: 25px
+
+		> div:first-child
+			padding: 0
+			margin: 0
+			background: none
+
+		> button
+			position: absolute
+			left: 50%
+			transform: translate(-50%, 0)
+			bottom: 0
+			top: auto
+			
+	.cg-ch-crt-text
+		top: 5px
+		margin: 0
+		background: url("../img/cr.svg") left top no-repeat
+		padding: 2px 0 8px 48px
+		max-width: 115px
+
+
+@media(max-width: 639px)
+
+	.cg-segment-block .cg-sb-right-in::before, .cg-segment-block.open .cg-sb-right-in::before
+		left: -110px
+
+	.cg-sbw-top > h3
+		text-align: left
+
+		span
+			padding: 0 18px 0 0
+
+	.cg-tooltip
+
+		&:before, &:after
+			display: none
+
+	.cg-tooltip-left
+		bottom: calc(100% + 14px)
+
+	.cg-share-block
+		right: -26px
+
+	.cg-tooltip-dislike
+		top: auto
+		transform: none
+		left: -26px
+
+	.cg-tooltip-q
+		top: auto
+		transform: translate(50%, 0)
+		left: auto
+		right: 0
+
+@media(max-width: 413px)
+
+	.cg-col-center
+		padding: 98px 30px 15px
+
+	.cg-hc-legend
+		padding-left: 0
+
+	.cg-ch-crt > div:first-child
+		display: block
+
+		> span
+			display: block
+			margin: 0
+
+	.cg-ch-crt-text
+		top: 0
+
+	.cg-ch-choose > div
+		padding: 5px 0 30px 0
+		background-position: right 5px
+
+		+ div
+			margin-top: 10px
+
+		span
+			right: 28px
+
+	.cg-btn-link
+		width: 100%
+		padding: 0
+
+	.cg-main-menu-block > div:last-child
+		justify-content: center
+		left: 0
+		right: 0
+
+	.cg-segment-block .cg-sb-right-in::before, .cg-segment-block.open .cg-sb-right-in::before
+		left: -80px

@@ -79,6 +79,14 @@ h2
 		justify-content: flex-end
 		width: 417px
 
+		> button
+			display: none
+			background: none
+			padding: 0
+			border: none
+			width: 32px
+			height: 32px
+
 	form
 		position: relative
 		width: 200px
@@ -108,7 +116,7 @@ h2
 	align-items: center
 
 	a
-		font-size: 10px
+		font-size: 11px
 		line-height: 17px
 		color: $scolor
 
@@ -135,7 +143,7 @@ h2
 			padding: 0 30px 0 15px
 			background: $tcolor
 			border-radius: 7px
-			font-size: 10px
+			font-size: 11px
 			font-weight: 500
 			color: #fff
 			height: 16px
@@ -177,7 +185,7 @@ h2
 
 	button
 		background: none
-		font-size: 10px
+		font-size: 11px
 		border: none
 		padding: 0
 		display: flex
@@ -310,8 +318,8 @@ h2
 		text-align: center
 
 	p
-		margin-bottom: 22px
-		font-weight: 400
+		margin: 0 0 22px
+		font-weight: 300
 		text-align: left
 
 .cg-segment-block
@@ -411,7 +419,7 @@ h2
 	z-index: 2
 
 	> div:first-child
-		font-weight: 300
+		font-weight: 100
 		font-size: 24px
 		line-height: 1
 		margin-bottom: 10px
@@ -421,7 +429,7 @@ h2
 
 
 	> div:last-child
-		font-weight: 400
+		font-weight: 300
 		font-size: 14px
 		line-height: 16px
 		padding-left: 3px
@@ -467,6 +475,7 @@ h2
 		background-position: left top
 		transition: all .2s ease
 		opacity: 0
+		overflow: hidden
 
 	&:hover:before
 		opacity: 1
@@ -482,11 +491,11 @@ h2
 	> h3
 		font-size: 16px
 		line-height: 19px
-		font-weight: 500
+		font-weight: 400
 		margin: 0 0 8px
 
 	> p
-		font-weight: 300
+		font-weight: 100
 		line-height: 19px
 		margin: 0 0 16px
 		transition: all .2s ease
@@ -534,7 +543,7 @@ h2
 
 
 .cg-sb-dislike
-  background: url("../img/dislike.svg") center no-repeat
+	background: url("../img/dislike.svg") center no-repeat
 
 .cg-sb-rs
   position: relative
@@ -585,9 +594,6 @@ h2
     top: 0
     width: 24px
     height: 24px
-    display: flex
-    align-items: center
-    justify-content: center
 
   div + div
     margin-top: 11px
@@ -697,14 +703,29 @@ h2
 	border-radius: 15px
 	position: relative
 	padding: 0 30px 0 56px
-	font-weight: 400
+	font-weight: 300
 	font-size: 14px
 	line-height: 32px
 	box-shadow: 0 3px 5px 0 rgba(0,0,0,0.3)
 
+	&.cg-btn-red, &.cg-btn-red:hover
+		background: #F65A4C
+
+		span
+			color: #F65A4C
+
 	&:hover
 		background: $fcolor
 		box-shadow: none
+
+	&.disabled
+		background: $fvcolor !important
+		box-shadow: 0 3px 5px 0 rgba(0,0,0,0.3) !important
+		color: #fff !important
+		cursor: default
+
+		span
+			border-color: $gcolor
 
 	span
 		position: absolute
@@ -722,6 +743,13 @@ h2
 		font-size: 16px
 		font-weight: 900
 
+.cg-btn-right
+	padding: 0 56px 0 30px
+
+	span
+		left: auto
+		right: -1px
+
 .cg-btn-link-i
 	background: #fff
 	color: $tcolor
@@ -737,14 +765,14 @@ h2
 	padding-left: 30px
 	font-weight: 300
 	font-size: 14px
-	line-height: 16px
+	line-height: 18px
 
 	li
 		display: flex
 
 		span:first-child
 			width: 106px
-			font-weight: 400
+			font-weight: 300
 
 .cg-link-rm
 	display: inline-block
@@ -769,7 +797,7 @@ h2
 	h4
 		margin: 0 0 12px
 		position: relative
-		font-weight: 500
+		font-weight: 400
 		font-size: 14px
 		line-height: 16px
 		padding-bottom: 12px
@@ -784,10 +812,11 @@ h2
 			background: $fvcolor
 
 	p, .cg-p-q
-		font-size: 10px
+		font-size: 11px
 		line-height: 12px
 		margin: 0 0 10px
 		color: $sxcolor
+		font-weight: 300
 
 .cg-sb-flex
 	display: flex
@@ -835,8 +864,9 @@ h2
 		border-radius: 24px
 		background: #e5e5e5
 		padding: 0 8px
-		font-size: 10px
+		font-size: 11px
 		color: $tcolor
+		font-weight: 500
 
 		&:hover
 			background: $fcolor
@@ -848,6 +878,7 @@ h2
 		span
 			transition: all .2s ease
 			color: #000
+			font-weight: 300
 
 .cg-ssize-block
 	max-width: 255px
@@ -915,7 +946,7 @@ h2
 
       strong
         font-size: 14px
-        font-weight: 500
+        font-weight: 400
         width: 68px
         position: relative
         top: -1px
@@ -923,7 +954,7 @@ h2
       > span
         padding-left: 50px
         font-size: 32px
-        font-weight: 300
+        font-weight: 100
         padding-bottom: 1px
 
         span
@@ -948,7 +979,7 @@ h2
 
 	div
 		font-size: 32px
-		font-weight: 400
+		font-weight: 300
 
 		span
 			font-size: 24px
@@ -1043,6 +1074,15 @@ h2
 	align-items: center
 	justify-content: space-between
 	padding: 14px 18px 14px 26px
+
+.cg-left-menu-button
+	display: none
+	background: none
+	padding: 0
+	border: none
+
+	&:hover
+		opacity: .5
 
 .cg-user-button
 
@@ -1168,15 +1208,15 @@ h2
 	background: rgba(196, 196, 196, 0.25)
 	padding: 0
 	border: none
-	display: flex
-	align-items: center
-	justify-content: center
 
 	&:hover
 		background: #fff
 
 	&:after
 		content: ''
+		position: absolute
+		left: calc(50% - 5px)
+		top: 5px
 		width: 0
 		height: 0
 		border-style: solid
@@ -1198,9 +1238,6 @@ h2
 .cg-btn-panel-hide
   width: 24px
   height: 24px
-  display: flex
-  align-items: center
-  justify-content: center
   background: #1a237e
   right: -8px
   top: calc(50% - 12px)
@@ -1336,12 +1373,13 @@ h2
 	padding: 0 0 0 35px
 	border: none
 	background: url("../img/settings-s.svg") left center no-repeat
-	font-size: 10px
+	font-size: 11px
 	line-height: 16px
 	color: #fff
 	opacity: .6
 	display: block
 	margin: 0 0 15px
+	font-weight: 300
 
 	&:hover
 		opacity: 1
@@ -1360,7 +1398,7 @@ h2
 
 		text-transform: uppercase
 		font-size: 14px
-		font-weight: 500
+		font-weight: 400
 		display: flex
 		justify-content: space-between
 		align-items: center
@@ -1415,7 +1453,7 @@ h2
 			padding: 0 15px 0 0
 			color: #fff
 			font-size: 12px
-			font-weight: 400
+			font-weight: 300
 
 .cg-btn-manage-channels
 	display: block
@@ -1426,8 +1464,9 @@ h2
 	height: 16px
 	line-height: 15px
 	color: #fff
-	font-size: 10px
+	font-size: 11px
 	opacity: .6
+	font-weight: 300
 
 	&:hover
 		opacity: 1
@@ -1457,7 +1496,7 @@ h2
 		margin-right: 18px
 		display: flex
 		align-items: center
-		font-weight: 400
+		font-weight: 300
 		padding: 0 50px 10px 0
 		background: url("../img/cr.svg") right top no-repeat
 
@@ -1477,9 +1516,20 @@ h2
 		color: #fff
 		border-radius: 16px
 		border: none
-		font-size: 10px
+		font-size: 11px
 		font-weight: 500
 		box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3)
+
+		&.active:before
+			content: ''
+			width: 6px
+			height: 6px
+			position: absolute
+			right: 5px
+			top: 5px
+			border-radius: 50%
+			background: $tcolor
+			z-index: 2
 
 		&:after
 			content: ''
@@ -1490,7 +1540,7 @@ h2
 			top: 0
 			border-radius: 50%
 			border: 3px solid $fcolor
-			background: #fff url("../img/arrows-b.svg") center no-repeat
+			background: #fff
 			background-size: 6px auto
 			box-sizing: border-box
 
@@ -1498,7 +1548,7 @@ h2
 .cg-ch-crt-text
 	position: relative
 	top: -5px
-	font-size: 10px
+	font-size: 13px
 	color: #F65A4C
 	font-weight: 500
 	margin-right: 25px
@@ -1514,12 +1564,20 @@ h2
 	font-size: 14px
 
 	> div
-		font-weight: 300
+		font-weight: 100
 		padding: 5px 30px 28px 0
 		position: relative
 
-		&.active button:after
-			background: $fcolor url("../img/x.svg") center no-repeat
+		&.active button:before
+			content: ''
+			width: 6px
+			height: 6px
+			position: absolute
+			right: 5px
+			top: 5px
+			border-radius: 50%
+			background: $tcolor
+			z-index: 2
 
 		&:hover
 
@@ -1538,7 +1596,7 @@ h2
 			color: #fff
 			border-radius: 16px
 			border: none
-			font-size: 10px
+			font-size: 11px
 			font-weight: 500
 			transform: translate(-50%, 0)
 			box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3)
@@ -1552,12 +1610,12 @@ h2
 				top: 0
 				border-radius: 50%
 				border: 3px solid $fcolor
-				background: #fff url("../img/arrows-b.svg") center no-repeat
+				background: #fff
 				background-size: 6px auto
 				box-sizing: border-box
 
 		span
-			font-weight: 400
+			font-weight: 300
 
 
 .cg-ch-tooltip
@@ -1570,9 +1628,8 @@ h2
 	color: #fff
 	top: -28px
 	right: 10px
-	font-size: 10px
+	font-size: 11px
 	line-height: 12px
-	font-weight: 500
 	padding: 6px 7px
 	border-radius: 3px
 	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3)
@@ -1644,7 +1701,7 @@ h2
 			background: #fff
 			z-index: 2
 			padding: 0 9px
-			font-size: 10px
+			font-size: 11px
 			color: #c4c4c4
 
 .cg-comparing-chart-in
@@ -1686,7 +1743,7 @@ h2
 			bottom: -1px
 			position: absolute
 			right: 0
-			left: -10px
+			left: -1000px
 			background: #e5e5e5
 			height: 1px
 
@@ -1695,7 +1752,7 @@ h2
 
 			&:first-child
 				font-size: 12px
-				font-weight: 400
+				font-weight: 300
 				line-height: 15px
 
 			&:last-child
@@ -1729,7 +1786,7 @@ h2
 		width: 808px
 
 	.cg-text-center
-		margin-top: 25px
+		margin-top: 30px
 
 	.slimScrollDiv
 		height: 325px !important
@@ -1740,7 +1797,7 @@ h2
 		display: flex
 		align-items: center
 		justify-content: space-between
-		padding-bottom: 16px
+		padding-bottom: 15px
 		color: #3564DB
 
 		span
@@ -1748,8 +1805,6 @@ h2
 			line-height: 28px
 			font-weight: 900
 			width: calc(100% - 30px)
-			padding-left: 42px
-			background: url("../img/folders-b.svg") left top no-repeat
 
 		a
 			width: 24px
@@ -1768,6 +1823,25 @@ h2
 
 			img
 				width: 8px
+
+
+.cg-chm-title span
+	padding-left: 42px
+	background: url("../img/folders-b.svg") left top no-repeat
+
+.cg-md-title
+	padding-left: 42px
+	background: url("../img/delete-b.svg") 11px top no-repeat
+
+.cg-modan-nti
+	padding-bottom: 15px
+
+	.cg-text-center
+		margin-top: 15px
+
+	h3 span
+		padding-left: 0
+		background: none
 
 .mfp-bg
 	opacity: .6
@@ -1848,7 +1922,7 @@ h2
 .cg-edit-delete
 	background: url("../img/delete.svg") 2px center no-repeat
 
-.cg-form-style
+.cg-form-style, .cg-form-style-s
 	display: block
 	width: 100%
 	border: 1px solid $gcolor
@@ -1859,7 +1933,12 @@ h2
 	font-size: 12px
 	font-weight: 700
 	color: $gcolor
+
+.cg-form-style
 	box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1)
+
+.cg-form-style-s
+	box-shadow: inset 0px 3px 3px 0px rgba(0,0,0,0.1)
 
 input::placeholder
 	color: $gcolor
@@ -1914,7 +1993,7 @@ input:-ms-input-placeholder
 
 		li
 			width: 100%
-			font-size: 10px
+			font-size: 11px
 			position: relative
 			font-weight: 500
 			color: $gcolor
@@ -1969,16 +2048,24 @@ input:-ms-input-placeholder
 
 	h5
 		font-size: 12px
-		font-weight: 400
-		margin: 0 15px 0 0
+		font-weight: 300
+		width: 110px
+		padding: 0 15px 0 0
+		margin: 0
 
 .cg-hc-legend-block
 	font-size: 12px
 	color: #c4c4c4
 	font-weight: 700
 	line-height: 16px
+	width: calc(100% - 110px)
+
+	ul
+		display: flex
+		flex-wrap: wrap
 
 	li
+		width: 50%
 		padding-left: 20px
 		background-position: left center
 		background-repeat: no-repeat
@@ -1986,10 +2073,10 @@ input:-ms-input-placeholder
 		&:first-child
 			background-image: url("../img/lg1.svg")
 
-		&:nth-child(2)
+		&:nth-child(3)
 			background-image: url("../img/lg2.svg")
 
-		&:nth-child(3)
+		&:nth-child(2)
 			background-image: url("../img/lg3.svg")
 
 		&:last-child
@@ -2030,15 +2117,13 @@ input:-ms-input-placeholder
 	background: #ebeff2 url("../img/sort.svg") 8px center no-repeat
 	padding: 0 0 0 27px
 	border: none
-	font-size: 10px
+	font-size: 11px
 	color: #b4bbc5
-	font-weight: 500
 	height: 16px
 
 .cg-tooltip-sort
 
 	a
-		font-weight: 500
 		padding-left: 25px
 		line-height: 16px
 		position: relative
@@ -2072,9 +2157,8 @@ input:-ms-input-placeholder
 .cg-tooltip-q
 	width: 172px
 	background: $tcolor
-	font-size: 10px
+	font-size: 11px
 	line-height: 12px
-	font-weight: 500
 
 	&:after
 		border-color: transparent $tcolor transparent transparent
@@ -2096,9 +2180,101 @@ input:-ms-input-placeholder
 			width: 230px
 
 .cg-modal-block
+	position: relative
 
 	+ .cg-modal-block
 		margin-top: 16px
+
+	&:first-child
+		z-index: 30
+
+	&:nth-child(2)
+		z-index: 28
+
+	&:nth-child(3)
+		z-index: 27
+
+	&:nth-child(4)
+		z-index: 26
+
+	&:nth-child(5)
+		z-index: 25
+
+	&:nth-child(6)
+		z-index: 24
+
+	&:nth-child(7)
+		z-index: 23
+
+	&:nth-child(8)
+		z-index: 22
+
+	&:nth-child(9)
+		z-index: 21
+
+	&:nth-child(10)
+		z-index: 20
+
+	&:nth-child(11)
+		z-index: 19
+
+	&:nth-child(12)
+		z-index: 18
+
+	&:nth-child(13)
+		z-index: 17
+
+	&:nth-child(14)
+		z-index: 16
+
+	&:nth-child(15)
+		z-index: 15
+
+	&:nth-child(16)
+		z-index: 14
+
+	&:nth-child(17)
+		z-index: 13
+
+	&:nth-child(18)
+		z-index: 12
+
+	&:nth-child(19)
+		z-index: 11
+
+	&:nth-child(20)
+		z-index: 10
+
+	&:nth-child(21)
+		z-index: 9
+
+	&:nth-child(22)
+		z-index: 8
+
+	&:nth-child(23)
+		z-index: 7
+
+	&:nth-child(24)
+		z-index: 6
+
+	&:nth-child(25)
+		z-index: 5
+
+	&:nth-child(26)
+		z-index: 4
+
+	&:nth-child(27)
+		z-index: 3
+
+	&:nth-child(28)
+		z-index: 2
+
+	p
+		font-size: 12px
+		line-height: 17px
+		font-weight: 700
+		color: $gcolor
+		margin: 12px 0
 
 .cg-mb-top
 	display: flex
@@ -2114,47 +2290,79 @@ input:-ms-input-placeholder
 		font-weight: 700
 		margin: 0
 
-	div
-		display: flex
-		align-items: center
+.cg-cb-bold
+	display: flex
+	align-items: center
+	position: relative
+
+	label
+		padding: 0 16px 0 10px
+		font-size: 12px
+		font-weight: 700
+		color: $fvcolor
+		cursor: pointer
+
+	span
+		position: absolute
+		left: 0
+		top: calc(50% - 8px)
+		width: 16px
+		height: 16px
+		border-radius: 2px
+		border: 2px solid $gcolor
+		box-sizing: border-box
+		box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2)
+		background: #fff
+
+	input
+		display: block
 		position: relative
+		z-index: 2
+		width: 16px
+		height: 16px
+		opacity: 0
+		margin: 0
 
-		label
-			padding: 0 16px 0 10px
-			font-size: 12px
-			font-weight: 700
-			color: $fvcolor
-			cursor: pointer
-
-		span
-			position: absolute
-			left: 0
-			top: calc(50% - 8px)
-			width: 16px
-			height: 16px
-			border-radius: 2px
-			border: 2px solid $gcolor
-			box-sizing: border-box
-			box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2)
-			background: #fff
-
-		input
-			display: block
-			position: relative
-			z-index: 2
-			width: 16px
-			height: 16px
-			opacity: 0
-			margin: 0
-
-			&:checked + span
-				border-color: #3564DB
-				background: #3564DB url("../img/check-mark.svg") center no-repeat
+		&:checked + span
+			border-color: #3564DB
+			background: #3564DB url("../img/check-mark.svg") center no-repeat
 
 .cg-form-drop
 	background: #f2f2f2
 	border-radius: 4px
 	box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1)
+	position: relative
+
+	> label
+		display: none
+		left: 50%
+		transform: translate(-50%, 0)
+		top: 41px
+
+		&:before
+			border-width: 0 7px 8px 7px
+			border-color: transparent transparent #90a4ae transparent
+			left: calc(50% - 7px)
+			top: -8px
+
+	&.disabled
+		box-shadow: none
+		z-index: 2
+
+		> label
+			display: block
+
+		> button
+			color: $fvcolor
+			background-image: url("../img/chevron-arrow-down-d.svg")
+
+		&:after
+			content: ''
+			position: absolute
+			left: 0
+			top: 0
+			width: 100%
+			height: 100%
 
 	> button
 		background: url("../img/chevron-arrow-down.svg") calc(100% - 12px) center no-repeat
@@ -2174,47 +2382,77 @@ input:-ms-input-placeholder
 	> div
 		display: none
 		width: 100% !important
+		position: absolute
+		z-index: 2
+		left: 0
+		top: 100%
+		background: #f2f2f2
+		border-radius: 0 0 4px 4px
+		box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1)
 
 	ul
 		padding: 0 16px
 
 	li
 		font-size: 12px
-		line-height: 16px
-		font-weight: 400
-		padding-top: 15px
-		padding-bottom: 15px
+		margin-bottom: 14px
+
+		&:last-child
+			margin-bottom: 10px
+
+	.cg-cb-block
+		margin-bottom: 14px
+
+		&:last-child
+			margin-bottom: 10px
+
+		label
+			display: flex
+
+			span:first-child
+				width: 22px
+
+			span:last-child
+				width: calc(100% - 22px)
+
+.cg-cb-dif
+	font-size: 12px
+	line-height: 16px
+	font-weight: 400
+	padding-top: 15px
+	padding-bottom: 15px
+	position: relative
+	display: flex
+	align-items: center
+	justify-content: space-between
+
+	span
+		position: absolute
+		right: 0
+		top: calc(50% - 8px)
+		width: 16px
+		height: 16px
+		border-radius: 2px
+		border: 2px solid $gcolor
+		box-sizing: border-box
+		box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2)
+		background: #fff
+
+	+ li
+		border-top: 1px solid $fvcolor
+
+	input
 		position: relative
-		display: flex
-		align-items: center
-		justify-content: space-between
+		z-index: 2
+		width: 16px
+		height: 16px
+		opacity: 0
+		margin: 0
 
-		span
-			position: absolute
-			right: 0
-			top: calc(50% - 8px)
-			width: 16px
-			height: 16px
-			border-radius: 2px
-			border: 2px solid $gcolor
-			box-sizing: border-box
-			box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2)
-			background: #fff
+		&:checked + span
+			border-color: #3564DB
+			background: #3564DB url("../img/check-mark.svg") center no-repeat
 
-		+ li
-			border-top: 1px solid $fvcolor
-
-		input
-			position: relative
-			z-index: 2
-			width: 16px
-			height: 16px
-			opacity: 0
-			margin: 0
-
-			&:checked + span
-				border-color: #3564DB
-				background: #3564DB url("../img/check-mark.svg") center no-repeat
 	label
 		cursor: pointer
 		display: inline-block
@@ -2263,58 +2501,651 @@ input:-ms-input-placeholder
 		width: 100% !important
 		padding: 0 14px 16px 0 !important
 
-		label
-			display: block
-			cursor: pointer
-			font-size: 12px
-			line-height: 14px
-			font-weight: 400
-			padding-left: 25px
-
-			span
-				display: block
-
 .cg-accb-in
 	padding: 0 16px
 
-	> div
-		position: relative
-		display: flex
-		align-items: center
-
-		+ div
-			margin-top: 12px
-
-		> span
-			position: absolute
-			left: 0
-			top: calc(50% - 8px)
-			width: 16px
-			height: 16px
-			border-radius: 2px
-			border: 2px solid $gcolor
-			box-sizing: border-box
-			box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2)
-			background: #fff
-
-		+ li
-			border-top: 1px solid $fvcolor
-
-		input
-			position: absolute
-			left: 0
-			top: calc(50% - 8px)
-			z-index: 2
-			width: 16px
-			height: 16px
-			opacity: 0
-			margin: 0
-
-			&:checked + span
-				border-color: #3564DB
-				background: #3564DB url("../img/check-mark.svg") center no-repeat
+	> div + div
+		margin-top: 12px
 
 .cg-scroll-out
 
 	> .slimScrollDiv, .slimScrollDiv > .cg-scroll
 		height: 416px !important
+
+.cg-mblock
+
+	+ .cg-mblock
+		margin-top: 20px
+
+	&:first-child
+		padding-top: 8px
+
+	h4
+		font-size: 12px
+		font-weight: 700
+		color: $gcolor
+		margin: 0 0 15px
+
+	> div
+
+		> div + div
+				margin-top: 12px
+
+.cg-cb-block
+	position: relative
+	display: flex
+	align-items: center
+
+	> span
+		position: absolute
+		left: 0
+		top: calc(50% - 8px)
+		width: 16px
+		height: 16px
+		border-radius: 2px
+		border: 2px solid $gcolor
+		box-sizing: border-box
+		box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2)
+		background: #fff
+
+	input
+		position: absolute
+		left: 0
+		top: calc(50% - 8px)
+		z-index: 2
+		width: 16px
+		height: 16px
+		opacity: 0
+		margin: 0
+
+		&:checked + span
+			border-color: #3564DB
+			background: #3564DB url("../img/check-mark.svg") center no-repeat
+
+	label
+		display: block
+		cursor: pointer
+		font-size: 12px
+		line-height: 14px
+		font-weight: 400
+		padding-left: 25px
+
+		span
+			display: block
+
+.cg-pm-block
+	margin-bottom: 30px
+
+	> div:first-child
+		display: flex
+		align-items: center
+		justify-content: space-between
+		margin-bottom: 10px
+
+		> div:first-child
+			font-size: 12px
+			font-weight: 700
+			color: $gcolor
+
+.cg-cb-button
+	position: relative
+	display: flex
+	align-items: center
+	padding: 0
+	font-size: 12px
+	font-weight: 700
+	color: $gcolor
+	cursor: pointer
+	background: none
+	border: none
+
+	&:before
+		content: ''
+		width: 16px
+		height: 16px
+		border-radius: 2px
+		border: 2px solid $gcolor
+		box-sizing: border-box
+		box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2)
+		background: #fff
+		margin: 0 10px 0 0
+
+	&.active:before
+		border-color: $fcolor
+		background: $fcolor url(../img/check-mark.svg) center no-repeat
+
+
+.cg-pms-out
+
+	.cg-scroll, > .slimScrollDiv
+		height: 230px !important
+
+	.cg-cb-block
+
+		+ div
+			margin-top: 7px
+
+		label
+			padding-left: 30px
+			display: flex
+			align-items: center
+
+			span:first-child
+				width: 26px
+				height: 26px
+				border-radius: 50%
+				overflow: hidden
+				border: 3px solid $tcolor
+
+				img
+					width: 100%
+
+			span:last-child
+				padding: 0 14px
+				font-size: 12px
+				font-weight: 300
+
+.cg-ipm-block
+
+	> div:first-child
+		font-size: 12px
+		font-weight: 700
+		color: $gcolor
+		margin: 0 0 16px
+
+	> div:nth-child(2)
+		display: flex
+		flex-wrap: wrap
+
+	> div:last-child
+		display: flex
+		align-items: center
+		justify-content: space-between
+
+		input
+			width: calc(100% - 83px)
+
+		button
+			font-size: 14px
+			text-transform: uppercase
+			font-weight: 300
+			background: $tcolor
+			border-radius: 24px
+			height: 24px
+			border: none
+			padding: 0 14px
+			color: #fff
+
+			&:hover
+				background: $fcolor
+
+.cg-checked-person
+	margin: 0 8px 8px 0
+	background: #a8ebe7
+	height: 24px
+	display: flex
+	padding: 2px
+	border-radius: 24px
+	align-items: center
+
+	> div:first-child
+		overflow: hidden
+		border-radius: 50%
+		border: 2px solid $fcolor
+		width: 20px
+		height: 20px
+		margin-right: 8px
+
+		img
+			width: 100%
+
+	> div:nth-child(2)
+		font-size: 12px
+		font-weight: 300
+		margin-right: 5px
+
+	button
+		width: 20px
+		height: 20px
+		display: flex
+		align-items: center
+		justify-content: center
+		border-radius: 50%
+		border: none
+		background: url("../img/x-b.svg") center no-repeat
+
+.cg-mi-title span
+	padding-left: 42px
+	background: url("../img/information-button-b.svg") left center no-repeat
+	background-size: 24px
+
+.cg-me-title span
+	padding-left: 42px
+	background: url("../img/edit.svg") left center no-repeat
+
+.cg-channel-details-block
+
+	.cg-mb-top
+		align-items: flex-start
+		padding-bottom: 16px
+
+		&:first-child span
+			font-size: 12px
+
+		h4
+			color: $gcolor
+
+	.cg-modal-block
+
+		+ .cg-modal-block
+			margin-top: 30px
+
+		&:first-child .cg-mb-top span
+			font-weight: 700
+
+		&:last-child .cg-chr-out
+			margin-bottom: 15px
+
+.cg-cd-item
+	display: flex
+	align-items: center
+	justify-content: space-between
+
+	+ .cg-cd-item
+		margin-top: 16px
+
+	span:first-child
+		width: 30px
+		display: flex
+		align-items: center
+
+	span:last-child
+		font-size: 12px
+		font-weight: 300
+		width: calc(100% - 30px)
+		text-align: right
+
+.cg-chr-out
+	position: relative
+	top: -4px
+	margin-bottom: -4px
+
+.cg-check-r
+	position: relative
+	top: 2px
+
+.cg-chd-block
+	font-size: 12px
+	line-height: 14px
+	font-weight: 400
+	padding-left: 25px
+	position: relative
+
+	&:before
+		content: ''
+		width: 24px
+		height: 24px
+		position: absolute
+		top: calc(50% - 10px)
+		left: -3px
+		background: url("../img/check-d.svg") center no-repeat
+
+	span
+		display: block
+
+.cg-main-menu-block
+	background: #3564db
+	z-index: 10
+	padding: 14px 16px 40px !important
+	color: #fff
+	opacity: 0
+	visibility: hidden
+	transition: all .2s ease
+
+	&.open
+		visibility: visible
+		opacity: 1
+
+	> div:first-child
+		display: flex
+		align-items: center
+		justify-content: space-between
+		margin-bottom: 20px
+
+		a, img
+			display: block
+
+	ul
+		padding-left: 17px
+
+	li
+
+		+ li
+			border-top: 1px solid rgba(255,255,255,.5)
+
+		a
+			display: block
+			color: #fff
+			font-size: 16px
+			font-weight: 300
+			padding: 11px 0
+
+			&:hover
+				opacity: .5
+
+	> div:last-child
+		position: absolute
+		right: 65px
+		bottom: 40px
+		display: flex
+
+		a
+			display: block
+
+			+ a
+				margin-left: 42px
+
+			&:hover
+				opacity: .5
+
+.cg-close-menu
+	background: none
+	padding: 0
+	border: none
+
+	&:hover
+		transform: rotate(90deg)
+
+.cg-modal-small
+	width: 296px
+	height: 160px
+	position: relative
+	border-radius: 5px
+	padding: 0 35px
+	display: flex
+	align-content: center
+	flex-wrap: wrap
+	color: #fff
+	font-size: 24px
+	line-height: 28px
+	font-weight: 700
+
+	div
+		width: 100%
+		display: flex
+		align-items: center
+
+	.popup-modal-dismiss
+		position: absolute
+		right: 16px
+		top: 16px
+		display: block
+
+		img
+			display: block
+
+	&:after
+		content: ''
+		width: 80px
+		position: absolute
+		right: 28px
+		top: 50%
+		transform: translate(0, -50%)
+
+.cg-modal-success
+	background-image: linear-gradient(to bottom, #4CAF50 0%, rgba(76,175,80,.5) 100%)
+
+.cg-modal-error
+	background-image: linear-gradient(to bottom, #F65A4C 0%, rgba(246,90,76,.5) 100%)
+
+.cg-m-project:after
+	height: 73px
+	background: url("../img/project.svg") center no-repeat
+
+.cg-m-channel:after
+	height: 76px
+	background: url("../img/channel.svg") center no-repeat
+
+.cg-ms-link
+	text-decoration: underline
+	display: inline-block
+	font-size: 16px
+	line-height: 19px
+	color: #fff
+	margin-top: 18px
+
+	&:hover
+		text-decoration: none
+
+.cg-modal-p
+
+	h3 span
+		background: url("../img/project-b.svg") left center no-repeat
+
+.cg-cp-flex
+	display: flex
+	position: relative
+
+	&:first-child
+		z-index: 10
+
+	&:nth-child(2)
+		z-index: 9
+
+	&:nth-child(3)
+		z-index: 8
+
+	&:nth-child(4)
+		z-index: 7
+
+	&:nth-child(5)
+		z-index: 6
+
+	&:nth-child(6)
+		z-index: 5
+
+	&:nth-child(7)
+		z-index: 4
+
+	&:nth-child(8)
+		z-index: 3
+
+	&:nth-child(9)
+		z-index: 2
+
+	+ .cg-cp-flex
+		margin-top: 32px
+
+	&:last-child
+		padding-bottom: 20px
+
+	> div:first-child
+		width: 210px
+
+		h4
+			margin: 0
+			border-bottom: 1px solid $scolor
+			font-size: 12px
+			line-height: 16px
+			font-weight: 700
+			padding-bottom: 15px
+
+		p
+			font-size: 12px
+			line-height: 14px
+			color: $scolor
+			margin: 15px 0 0
+
+	> div:last-child
+		width: calc(100% - 210px)
+		padding-left: 74px
+
+.cg-cp-lblist
+	display: flex
+	justify-content: space-between
+
+.cg-cs-item
+	width: 154px
+	height: 112px
+	background: #fbfbfb
+	border: none
+	box-shadow: 0 3px 5px 0 rgba(0,0,0,0.1)
+	border-radius: 4px
+	position: relative
+	z-index: 2
+
+	&:hover
+		background: #f2f2f2
+
+	&:after
+		content: ''
+		position: absolute
+		width: 16px
+		height: 16px
+		bottom: 6px
+		left: calc(50% - 8px)
+		background: url("../img/broken-link.svg") center no-repeat
+		opacity: 0
+		transition: all .2s ease
+
+	&.active
+		background: #f2f2f2
+		box-shadow: 0 0 1px 0 rgba(0,0,0,0.3)
+
+		&:hover label
+			opacity: 1
+
+		&:after
+			opacity: 1
+
+	span
+		display: block
+		margin-top: 5px
+		font-size: 12px
+		font-weight: 700
+		color: $scolor
+
+	label
+		display: block
+		position: absolute
+		width: 115px
+		text-align: center
+		background: $scolor
+		color: #fff
+		line-height: 24px
+		border-radius: 3px
+		font-size: 11px
+		bottom: -29px
+		left: calc(50% - 57px)
+		transition: all .2s ease
+		opacity: 0
+
+		&:before
+			content: ''
+			width: 0
+			height: 0
+			border-style: solid
+			border-width: 0 4px 6px 4px
+			border-color: transparent transparent #90a4ae transparent
+			position: absolute
+			left: calc(50% - 4px)
+			top: -6px
+
+.cg-btn-block
+	position: relative
+	display: inline-block
+
+	&:after
+		content: ''
+		position: absolute
+		left: 0
+		top: 0
+		width: 100%
+		height: 100%
+		z-index: 2
+
+.cg-tooltip-disable
+	position: absolute
+	background: $scolor
+	color: #fff
+	border-radius: 3px
+	font-size: 11px
+	width: 175px
+	padding: 20px 16px
+	text-align: left
+	left: calc(100% + 25px)
+	top: 50%
+	transform: translate(0, -50%)
+	box-shadow: 0 4px 5px 0 rgba(0,0,0,0.2)
+
+	&:before
+		content: ''
+		width: 0
+		height: 0
+		border-style: solid
+		border-width: 7px 8px 7px 0
+		border-color: transparent $scolor transparent transparent
+		position: absolute
+		left: -8px
+		top: calc(50% - 7px)
+
+	> button
+		position: absolute
+		right: 4px
+		top: 4px
+		width: 16px
+		height: 16px
+		background: none
+		border: none
+		padding: 0
+
+		img
+			width: 8px
+
+.cg-modal-mid
+	width: 580px
+
+	.cg-cp-flex
+
+		&:last-child
+			padding-bottom: 0
+
+		> div:first-child
+			width: 154px
+
+		> div:last-child
+			width: calc(100% - 154px)
+
+.cg-mrb
+	margin-right: 100px
+
+.cg-switch
+	position: relative
+
+	input
+		display: block
+		margin: 0
+		opacity: 0
+		position: relative
+		z-index: 2
+		width: 36px
+		height: 40px
+		
+		&:checked + span
+			background-image: url("../img/switch-on.svg")
+			left: -2px
+
+	span
+		position: absolute
+		left: -8px
+		top: -6px
+		width: 36px
+		height: 40px
+		background: url("../img/switch-off.svg") center no-repeat
+
+.cg-ct-double
+
+	* + *
+		margin-left: 10px
+
+

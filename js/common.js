@@ -33,6 +33,11 @@ $(function() {
         $('.cg-main-menu-block').removeClass('open');
     });
 
+    $('.cg-cs-item').on('click', function(){
+        $(this).siblings().removeClass('active');
+        $(this).toggleClass('active');
+    });
+
     $('.cg-drop-block > button').on('click', function(){
         $(this).toggleClass('open');
         $(this).next('div').toggle('fast');

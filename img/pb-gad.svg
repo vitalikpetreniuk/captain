@@ -1,0 +1,20 @@
+<svg width="34" height="32" viewBox="0 0 34 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group 2.1</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-17523 1294)">
+<g id="Group 2.1">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(17523 -1294)" fill="#56CCF2"/>
+</g>
+<g id="google-adwords">
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="translate(17540.9 -1290.45)" fill="#27AE60"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 6.96275 32C 3.70264 32 0 32 0 32L 11.6832 0L 21.6035 0L 11.3007 28.2646C 11.3007 28.2646 10.2229 32 6.96275 32Z"/>
+<path id="path1_fill" d="M 4.04704 24.7126C 4.04704 24.7126 5.12451 28.448 8.38462 28.448C 11.6451 28.448 15.3477 28.448 15.3477 28.448L 4.96119 0L 0 13.6101L 4.04704 24.7126Z"/>
+</defs>
+</svg>

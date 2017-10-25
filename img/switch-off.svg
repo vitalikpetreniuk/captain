@@ -1,0 +1,54 @@
+<svg width="36" height="40" viewBox="0 0 36 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group 7</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-17504 -6332)">
+<g id="Group 7">
+<g id="switch on">
+<g id="track">
+<use xlink:href="#path0_fill" transform="translate(17512.4 6342.4)" fill="#CCCCCC"/>
+</g>
+</g>
+<g id="menu button">
+<g id="button bg" filter="url(#filter0_dd)">
+<use xlink:href="#path1_fill" transform="translate(17512 6340)" fill="#EEEEEE"/>
+<mask id="mask0_outline_ins">
+<use xlink:href="#path1_fill" fill="white" transform="translate(17512 6340)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path2_stroke_2x" transform="translate(17512 6340)" fill="url(#paint2_linear)"/>
+<use xlink:href="#path2_stroke_2x" transform="translate(17512 6340)" fill="url(#paint3_linear)"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_dd" filterUnits="userSpaceOnUse" x="17504" y="6332" width="32" height="40" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dx="0" dy="8"/>
+<feGaussianBlur stdDeviation="4"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.24 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dx="0" dy="0"/>
+<feGaussianBlur stdDeviation="4"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow" result="effect2_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow" result="shape"/>
+</filter>
+<linearGradient id="paint2_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 15.8434 -15.8434 0 8 0)">
+<stop offset="0" stop-color="#CACACA"/>
+<stop offset="0.8" stop-color="#000000" stop-opacity="0.02"/>
+<stop offset="1" stop-color="#000000" stop-opacity="0.04"/>
+</linearGradient>
+<linearGradient id="paint3_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 16 -16 0 8 0)">
+<stop offset="0" stop-color="#E5E5E5"/>
+<stop offset="0.2" stop-color="#FFFFFF" stop-opacity="0.06"/>
+<stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+</linearGradient>
+<path id="path0_fill" fill-rule="evenodd" d="M 27.2 5.6C 27.2 8.72 24.72 11.2 21.6 11.2L 5.6 11.2C 2.48 11.2 0 8.72 0 5.6C 0 2.48 2.48 0 5.6 0L 21.6 0C 24.72 0 27.2 2.48 27.2 5.6Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 8 16C 12.4183 16 16 12.4183 16 8C 16 3.58172 12.4183 0 8 0C 3.58172 0 0 3.58172 0 8C 0 12.4183 3.58172 16 8 16Z"/>
+<path id="path2_stroke_2x" d="M 8 16.5C 12.6944 16.5 16.5 12.6944 16.5 8L 15.5 8C 15.5 12.1421 12.1421 15.5 8 15.5L 8 16.5ZM 16.5 8C 16.5 3.30558 12.6944 -0.5 8 -0.5L 8 0.5C 12.1421 0.5 15.5 3.85786 15.5 8L 16.5 8ZM 8 -0.5C 3.30558 -0.5 -0.5 3.30558 -0.5 8L 0.5 8C 0.5 3.85786 3.85786 0.5 8 0.5L 8 -0.5ZM -0.5 8C -0.5 12.6944 3.30558 16.5 8 16.5L 8 15.5C 3.85786 15.5 0.5 12.1421 0.5 8L -0.5 8Z"/>
+</defs>
+</svg>
