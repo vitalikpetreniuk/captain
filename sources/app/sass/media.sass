@@ -144,6 +144,26 @@
 		display: none
 
 
+@media(min-width: 768px)
+
+	.cg-center-top
+		h2
+			display: block !important
+
+		form
+			width: 200px !important
+
+		> div.active
+			width: auto !important
+			justify-content: flex-end !important
+
+	.cg-center-top-links
+		display: flex !important
+
+	.cg-search-open, .cg-search-close
+		display: none !important
+
+
 @media(max-width: 767px)
 
 	.cg-link-settings
@@ -170,10 +190,8 @@
 			form
 				display: none
 
-			> button
-				display: flex
-				align-items: center
-				justify-content: center
+	.cg-search-open
+		display: block
 
 	.cg-sb-free, .cg-banner-block
 		display: none
@@ -256,6 +274,12 @@
 		max-width: 115px
 
 
+@media(max-height: 679px)
+
+	.cg-main-menu-block .cg-col-scroll-in > div:last-child
+		position: static
+		justify-content: center
+
 @media(max-width: 639px)
 
 	.cg-segment-block .cg-sb-right-in::before, .cg-segment-block.open .cg-sb-right-in::before
@@ -271,6 +295,16 @@
 
 		&:before, &:after
 			display: none
+
+		> button
+			width: 30px
+			height: 30px
+
+			img
+				width: 16px
+				height: 16px
+				position: relative
+				top: 1px
 
 	.cg-tooltip-left
 		bottom: calc(100% + 14px)
@@ -290,6 +324,16 @@
 		right: 0
 
 @media(max-width: 413px)
+
+	.cg-segments-buttons
+		flex-wrap: wrap
+
+		button
+			width: 100%
+			margin: 0
+
+			+ button
+				margin: 5px 0 0
 
 	.cg-col-center
 		padding: 98px 30px 15px

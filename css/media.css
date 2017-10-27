@@ -119,6 +119,25 @@
   .cg-user-button {
     display: none; } }
 
+@media (min-width: 768px) {
+  .cg-center-top h2 {
+    display: block !important; }
+  .cg-center-top form {
+    width: 200px !important; }
+  .cg-center-top > div.active {
+    width: auto !important;
+    -webkit-box-pack: end !important;
+    -webkit-justify-content: flex-end !important;
+        -ms-flex-pack: end !important;
+            justify-content: flex-end !important; }
+  .cg-center-top-links {
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important; }
+  .cg-search-open, .cg-search-close {
+    display: none !important; } }
+
 @media (max-width: 767px) {
   .cg-link-settings {
     padding: 0;
@@ -136,19 +155,8 @@
     width: auto; }
     .cg-center-top > div form {
       display: none; }
-    .cg-center-top > div > button {
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-      -webkit-align-items: center;
-          -ms-flex-align: center;
-              align-items: center;
-      -webkit-box-pack: center;
-      -webkit-justify-content: center;
-          -ms-flex-pack: center;
-              justify-content: center; }
+  .cg-search-open {
+    display: block; }
   .cg-sb-free, .cg-banner-block {
     display: none; }
   .cg-segment-block {
@@ -228,6 +236,14 @@
     padding: 2px 0 8px 48px;
     max-width: 115px; } }
 
+@media (max-height: 679px) {
+  .cg-main-menu-block .cg-col-scroll-in > div:last-child {
+    position: static;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; } }
+
 @media (max-width: 639px) {
   .cg-segment-block .cg-sb-right-in::before, .cg-segment-block.open .cg-sb-right-in::before {
     left: -110px; }
@@ -237,6 +253,14 @@
       padding: 0 18px 0 0; }
   .cg-tooltip:before, .cg-tooltip:after {
     display: none; }
+  .cg-tooltip > button {
+    width: 30px;
+    height: 30px; }
+    .cg-tooltip > button img {
+      width: 16px;
+      height: 16px;
+      position: relative;
+      top: 1px; }
   .cg-tooltip-left {
     bottom: -webkit-calc(100% + 14px);
     bottom: calc(100% + 14px); }
@@ -257,6 +281,15 @@
     right: 0; } }
 
 @media (max-width: 413px) {
+  .cg-segments-buttons {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+    .cg-segments-buttons button {
+      width: 100%;
+      margin: 0; }
+      .cg-segments-buttons button + button {
+        margin: 5px 0 0; }
   .cg-col-center {
     padding: 98px 30px 15px; }
   .cg-hc-legend {
