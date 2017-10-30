@@ -274,12 +274,6 @@
 		max-width: 115px
 
 
-@media(max-height: 679px)
-
-	.cg-main-menu-block .cg-col-scroll-in > div:last-child
-		position: static
-		justify-content: center
-
 @media(max-width: 639px)
 
 	.cg-segment-block .cg-sb-right-in::before, .cg-segment-block.open .cg-sb-right-in::before
@@ -306,6 +300,9 @@
 				position: relative
 				top: 1px
 
+	.cg-tooltip-q p
+		padding-right: 5px
+
 	.cg-tooltip-left
 		bottom: calc(100% + 14px)
 
@@ -322,6 +319,12 @@
 		transform: translate(50%, 0)
 		left: auto
 		right: 0
+
+@media(max-height: 550px)
+
+	.cg-main-menu-block .cg-col-scroll-in > div:last-child
+		position: static
+		justify-content: center
 
 @media(max-width: 413px)
 

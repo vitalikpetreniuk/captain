@@ -1009,6 +1009,8 @@ h2 {
     width: 273px; }
   .cg-col-right h2 {
     margin: 0 0 50px; }
+    .cg-col-right h2.mb30 {
+      margin-bottom: 30px; }
   .cg-col-right p {
     font-size: 14px;
     line-height: 16px;
@@ -3109,6 +3111,9 @@ input:-ms-input-placeholder {
   background: none;
   padding: 0;
   border: none; }
+  .cg-close-menu img {
+    display: block;
+    width: 32px; }
   .cg-close-menu:hover {
     -webkit-transform: rotate(90deg);
         -ms-transform: rotate(90deg);
@@ -3728,3 +3733,291 @@ input:-ms-input-placeholder {
     font-size: 11px;
     line-height: 13px;
     color: #90a4ae; }
+
+.cg-tabs-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .cg-tabs-header > a {
+    width: 154px;
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    color: #b0bec5;
+    height: 48px;
+    line-height: 48px;
+    border: 1px solid #b0bec5;
+    -webkit-border-radius: 4px;
+            border-radius: 4px;
+    position: relative;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(176, 190, 197, 0.05)), to(rgba(176, 190, 197, 0.1)));
+    background-image: -webkit-linear-gradient(top, rgba(176, 190, 197, 0.05) 0%, rgba(176, 190, 197, 0.1) 100%);
+    background-image: -o-linear-gradient(top, rgba(176, 190, 197, 0.05) 0%, rgba(176, 190, 197, 0.1) 100%);
+    background-image: linear-gradient(to bottom, rgba(176, 190, 197, 0.05) 0%, rgba(176, 190, 197, 0.1) 100%);
+    -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+            box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1); }
+    .cg-tabs-header > a span {
+      position: absolute;
+      background-repeat: no-repeat;
+      -webkit-background-size: 100% 100%;
+              background-size: 100%;
+      background-position: center;
+      height: 24px;
+      top: -webkit-calc(50% - 12px);
+      top: calc(50% - 12px); }
+    .cg-tabs-header > a:hover, .cg-tabs-header > a.active {
+      background: rgba(204, 204, 204, 0.25);
+      -webkit-box-shadow: none;
+              box-shadow: none; }
+    .cg-tabs-header > a.active:after, .cg-tabs-header > a.active:before {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-style: solid; }
+    .cg-tabs-header > a.active:after {
+      z-index: 2;
+      left: -webkit-calc(50% - 7px);
+      left: calc(50% - 7px);
+      bottom: -8px;
+      border-width: 9px 7px 0 7px;
+      border-color: #f2f2f0 transparent transparent transparent; }
+    .cg-tabs-header > a.active:before {
+      left: -webkit-calc(50% - 8px);
+      left: calc(50% - 8px);
+      bottom: -9px;
+      border-width: 9px 8px 0 8px;
+      border-color: #b0bec5 transparent transparent transparent; }
+
+.cg-t-ga {
+  padding-left: 46px; }
+  .cg-t-ga span {
+    left: 14px;
+    width: 24px;
+    background-image: url("../img/pb-ga.svg"); }
+
+.cg-t-fb {
+  padding-left: 65px; }
+  .cg-t-fb span {
+    left: 33px;
+    width: 24px;
+    background-image: url("../img/pb-fb.svg"); }
+
+.cg-t-gad {
+  padding-left: 49px; }
+  .cg-t-gad span {
+    left: 16px;
+    width: 25px;
+    background-image: url("../img/pb-gad.svg"); }
+
+.cg-tabs-body > div {
+  display: none;
+  padding-top: 30px; }
+  .cg-tabs-body > div.active {
+    display: block; }
+
+.cg-tb-flex > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 32px; }
+  .cg-tb-flex > div + div {
+    margin-top: 16px; }
+
+.cg-tb-flex .cg-switch {
+  margin-left: 72px;
+  top: -3px; }
+
+.cg-tb-evalue {
+  display: none;
+  margin-left: -webkit-calc(100% - 423px);
+  margin-left: calc(100% - 423px); }
+  .cg-tb-evalue > * {
+    width: 268px; }
+
+.cg-tb-title {
+  width: 155px;
+  font-size: 12px;
+  font-weight: 700;
+  border-bottom: 1px solid #c4c4c4;
+  padding-bottom: 16px; }
+
+.cg-tb-value {
+  font-size: 12px;
+  font-weight: 700;
+  color: #b0bec5;
+  width: 210px;
+  margin-left: 72px;
+  padding-right: 10px; }
+
+.cg-tb-edit {
+  position: relative;
+  background: none;
+  padding: 0;
+  border: none;
+  height: 16px;
+  top: -1px; }
+  .cg-tb-edit:hover span {
+    opacity: 1;
+    visibility: visible; }
+  .cg-tb-edit img {
+    display: block; }
+  .cg-tb-edit span {
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+    opacity: 0;
+    visibility: hidden;
+    display: block;
+    position: absolute;
+    top: 24px;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+        -ms-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+    white-space: nowrap;
+    z-index: 2;
+    color: #fff;
+    background: #90a4ae;
+    height: 24px;
+    line-height: 23px;
+    padding: 0 15px;
+    -webkit-border-radius: 2px;
+            border-radius: 2px;
+    -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.2); }
+    .cg-tb-edit span:before {
+      content: '';
+      position: absolute;
+      left: -webkit-calc(50% - 3px);
+      left: calc(50% - 3px);
+      top: -6px;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 0 4px 6px 4px;
+      border-color: transparent transparent #90a4ae transparent; }
+
+.cg-ps-cb .cg-cp-lblist {
+  margin-bottom: 16px;
+  width: 325px; }
+
+.cg-ps-cb .cg-cs-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 48px;
+  text-align: left;
+  padding: 0; }
+  .cg-ps-cb .cg-cs-item:after {
+    left: auto;
+    right: 12px;
+    top: -webkit-calc(50% - 8px);
+    top: calc(50% - 8px); }
+  .cg-ps-cb .cg-cs-item img {
+    margin: 0 8px 0 15px; }
+  .cg-ps-cb .cg-cs-item span {
+    margin: 0; }
+
+.cg-ps-sb-dd > div:first-child {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .cg-ps-sb-dd > div:first-child span {
+    font-size: 12px;
+    font-weight: 700;
+    color: #b0bec5;
+    margin-right: 26px; }
+  .cg-ps-sb-dd > div:first-child button {
+    background: none;
+    padding: 0;
+    border: none; }
+    .cg-ps-sb-dd > div:first-child button img {
+      display: block; }
+
+.cg-ps-sb-dd .cg-form-drop {
+  display: none;
+  width: 210px; }
+
+.cg-ps-lt {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .cg-ps-lt > div:first-child {
+    width: 267px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .cg-ps-lt > div:first-child > input {
+      display: none;
+      width: 210px; }
+  .cg-ps-lt > div:last-child {
+    width: 210px;
+    position: relative;
+    top: -1px; }
+  .cg-ps-lt .cg-switch {
+    top: 9px; }
+
+.cg-ps-lt-text {
+  font-size: 12px;
+  font-weight: 700;
+  color: #b0bec5;
+  max-width: 210px; }
+
+.cg-np {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important; }
+
+.cg-ci-block {
+  padding-top: 10px; }
+  .cg-ci-block .cg-text-center:first-child {
+    margin-bottom: 30px; }
+  .cg-ci-block h2 {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 900;
+    text-align: center;
+    margin: 0 0 36px; }
+
+.cg-mt-title span {
+  padding-left: 42px;
+  background: url(../img/team.svg) left center no-repeat; }
+
+.cg-rr-in .cg-text-center:first-child {
+  margin-bottom: 40px; }
+
+.cg-rr-in p {
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0 0 40px;
+  text-align: center; }

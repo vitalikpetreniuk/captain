@@ -51,7 +51,7 @@
 			<a class="popup-modal cg-btn-link" href="#cg-ss-s"><span>+</span>service settings 2</a>
 			<br>
 			<br>
-			<a class="popup-modal cg-btn-link" href="#cg-modal-mt"><span>+</span>manage teams</a>
+			<a class="popup-modal cg-btn-link" href="#cg-modal-mt"><span>+</span>manage team</a>
 			<br>
 			<br>
 			<a class="popup-modal cg-btn-link" href="#cg-modal-ndir"><span>+</span>new data is ready</a>
@@ -67,8 +67,664 @@
 			<br>
 			<br>
 			<a class="popup-modal cg-btn-link" href="#cg-modal-rc"><span>+</span>recomended channels</a>
+			<br>
+			<br>
+			<a class="popup-modal cg-btn-link" href="#cg-modal-ps"><span>+</span>project settings</a>
 		</div>
 	</div>
+
+    <div id="cg-modal-ps" class="mfp-hide cg-modal cg-modal-wide">
+        <h3 class="cg-mp-title">
+            <span>Project Settings</span>
+            <a class="popup-modal-dismiss" href="#"><img src="img/x.svg" alt="x"></a>
+        </h3>
+        <form>
+            <div class="cg-cp-block">
+                <div class="cg-cp-flex">
+                    <div>
+                        <h4>Project name</h4>
+                    </div>
+                    <div>
+                        <div class="cg-ps-pn">
+                            #Test Project
+                        </div>
+                    </div>
+                </div>
+                <div class="cg-cp-flex">
+                    <div>
+                        <h4>Services</h4>
+                    </div>
+                    <div>
+                        <div class="cg-tabs">
+                            <div class="cg-tabs-header">
+                                <a href="#cg-tab1" class="cg-t-ga active">
+                                    <span></span>
+                                    Google Analitycs
+                                </a>
+                                <a href="#cg-tab2" class="cg-t-fb">
+                                    <span></span>
+                                    Facebook
+                                </a>
+                                <a href="#cg-tab3" class="cg-t-gad">
+                                    <span></span>
+                                    Google Adwords
+                                </a>
+                            </div>
+                            <div class="cg-tabs-body">
+                                <div id="cg-tab1" class="active">
+                                    <div class="cg-tb-flex">
+                                        <div>
+                                            <div class="cg-tb-title">
+                                                Ad Account
+                                            </div>
+                                            <div class="cg-tb-value">
+                                                Ad account from the list
+                                            </div>
+                                            <button class="cg-tb-edit" type="button">
+                                                <img src="img/pencil.svg" alt="edit">
+                                                <span>edit value</span>
+                                            </button>
+                                            <div class="cg-tb-evalue">
+                                                <div class="cg-form-drop cg-drop-block">
+                                                <button type="button">Select ad account from the list</button>
+                                                <div>
+                                                    <ul>
+                                                        <li class="cg-cb-block">
+                                                            <input id="test410" type="checkbox">
+                                                            <span></span>
+                                                            <label for="test410">
+                                                                test
+                                                            </label>
+                                                        </li>
+                                                        <li class="cg-cb-block">
+                                                            <input id="test411" type="checkbox">
+                                                            <span></span>
+                                                            <label for="test411">
+                                                                test 2
+                                                            </label>
+                                                        </li>
+                                                        <li class="cg-cb-block">
+                                                            <input id="test412" type="checkbox">
+                                                            <span></span>
+                                                            <label for="test412">
+                                                                test 3
+                                                            </label>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="cg-tb-title">
+                                                Facebook Account
+                                            </div>
+                                            <div class="cg-tb-value">
+                                                Select FB Page from the list
+                                            </div>
+                                            <button class="cg-tb-edit" type="button">
+                                                <img src="img/pencil.svg" alt="edit">
+                                                <span>edit value</span>
+                                            </button>
+                                            <div class="cg-tb-evalue">
+                                                <div class="cg-form-drop cg-drop-block">
+                                                    <button type="button">Select FB Page from the list</button>
+                                                    <div>
+                                                        <ul>
+                                                            <li class="cg-cb-block">
+                                                                <input id="test510" type="checkbox">
+                                                                <span></span>
+                                                                <label for="test510">
+                                                                    test
+                                                                </label>
+                                                            </li>
+                                                            <li class="cg-cb-block">
+                                                                <input id="test511" type="checkbox">
+                                                                <span></span>
+                                                                <label for="test511">
+                                                                    test 2
+                                                                </label>
+                                                            </li>
+                                                            <li class="cg-cb-block">
+                                                                <input id="test512" type="checkbox">
+                                                                <span></span>
+                                                                <label for="test512">
+                                                                    test 3
+                                                                </label>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="cg-tb-title">
+                                                Main Goal
+                                            </div>
+                                            <div class="cg-tb-value">
+                                                Something and Blah-Blah-Blah
+                                            </div>
+                                            <button class="cg-tb-edit" type="button">
+                                                <img src="img/pencil.svg" alt="edit">
+                                                <span>edit value</span>
+                                            </button>
+                                            <div class="cg-tb-evalue">
+                                                <div class="cg-form-drop cg-drop-block">
+                                                    <button type="button">Something and Blah-Blah-Blah</button>
+                                                    <div>
+                                                        <ul>
+                                                            <li class="cg-cb-block">
+                                                                <input id="test610" type="checkbox">
+                                                                <span></span>
+                                                                <label for="test610">
+                                                                    test
+                                                                </label>
+                                                            </li>
+                                                            <li class="cg-cb-block">
+                                                                <input id="test611" type="checkbox">
+                                                                <span></span>
+                                                                <label for="test611">
+                                                                    test 2
+                                                                </label>
+                                                            </li>
+                                                            <li class="cg-cb-block">
+                                                                <input id="test612" type="checkbox">
+                                                                <span></span>
+                                                                <label for="test612">
+                                                                    test 3
+                                                                </label>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="cg-tb-title">
+                                                Max CPA For The Main Goal
+                                            </div>
+                                            <div class="cg-tb-value">
+                                                100500
+                                            </div>
+                                            <button class="cg-tb-edit" type="button">
+                                                <img src="img/pencil.svg" alt="edit">
+                                                <span>edit value</span>
+                                            </button>
+                                            <div class="cg-tb-evalue">
+                                                <input type="text" class="cg-form-style-s" placeholder="enter a value">
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="cg-tb-title">
+                                                Is E-Commerce?
+                                            </div>
+                                            <div class="cg-switch">
+                                                <input type="checkbox">
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="cg-tb-title">
+                                                How Many Products?
+                                            </div>
+                                            <div class="cg-tb-value">
+                                                Enter a value
+                                            </div>
+                                            <button class="cg-tb-edit" type="button">
+                                                <img src="img/pencil.svg" alt="edit">
+                                                <span>edit value</span>
+                                            </button>
+                                            <div class="cg-tb-evalue">
+                                                <input type="text" class="cg-form-style-s" placeholder="enter a value">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="cg-tab2">
+                                    <div class="cg-tb-flex">
+                                        <div>
+                                            <div class="cg-tb-title">
+                                                Ad Account
+                                            </div>
+                                            <div class="cg-tb-value">
+                                                Ad account from the list
+                                            </div>
+                                            <button class="cg-tb-edit" type="button">
+                                                <img src="img/pencil.svg" alt="edit">
+                                                <span>edit value</span>
+                                            </button>
+                                            <div class="cg-tb-evalue">
+                                                <div class="cg-form-drop cg-drop-block">
+                                                <button type="button">Select ad account from the list</button>
+                                                <div>
+                                                    <ul>
+                                                        <li class="cg-cb-block">
+                                                            <input id="test410" type="checkbox">
+                                                            <span></span>
+                                                            <label for="test410">
+                                                                test
+                                                            </label>
+                                                        </li>
+                                                        <li class="cg-cb-block">
+                                                            <input id="test411" type="checkbox">
+                                                            <span></span>
+                                                            <label for="test411">
+                                                                test 2
+                                                            </label>
+                                                        </li>
+                                                        <li class="cg-cb-block">
+                                                            <input id="test412" type="checkbox">
+                                                            <span></span>
+                                                            <label for="test412">
+                                                                test 3
+                                                            </label>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="cg-tb-title">
+                                                Facebook Account
+                                            </div>
+                                            <div class="cg-tb-value">
+                                                Select FB Page from the list
+                                            </div>
+                                            <button class="cg-tb-edit" type="button">
+                                                <img src="img/pencil.svg" alt="edit">
+                                                <span>edit value</span>
+                                            </button>
+                                            <div class="cg-tb-evalue">
+                                                <div class="cg-form-drop cg-drop-block">
+                                                    <button type="button">Select FB Page from the list</button>
+                                                    <div>
+                                                        <ul>
+                                                            <li class="cg-cb-block">
+                                                                <input id="test510" type="checkbox">
+                                                                <span></span>
+                                                                <label for="test510">
+                                                                    test
+                                                                </label>
+                                                            </li>
+                                                            <li class="cg-cb-block">
+                                                                <input id="test511" type="checkbox">
+                                                                <span></span>
+                                                                <label for="test511">
+                                                                    test 2
+                                                                </label>
+                                                            </li>
+                                                            <li class="cg-cb-block">
+                                                                <input id="test512" type="checkbox">
+                                                                <span></span>
+                                                                <label for="test512">
+                                                                    test 3
+                                                                </label>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="cg-tb-title">
+                                                Main Goal
+                                            </div>
+                                            <div class="cg-tb-value">
+                                                Something and Blah-Blah-Blah
+                                            </div>
+                                            <button class="cg-tb-edit" type="button">
+                                                <img src="img/pencil.svg" alt="edit">
+                                                <span>edit value</span>
+                                            </button>
+                                            <div class="cg-tb-evalue">
+                                                <div class="cg-form-drop cg-drop-block">
+                                                    <button type="button">Something and Blah-Blah-Blah</button>
+                                                    <div>
+                                                        <ul>
+                                                            <li class="cg-cb-block">
+                                                                <input id="test610" type="checkbox">
+                                                                <span></span>
+                                                                <label for="test610">
+                                                                    test
+                                                                </label>
+                                                            </li>
+                                                            <li class="cg-cb-block">
+                                                                <input id="test611" type="checkbox">
+                                                                <span></span>
+                                                                <label for="test611">
+                                                                    test 2
+                                                                </label>
+                                                            </li>
+                                                            <li class="cg-cb-block">
+                                                                <input id="test612" type="checkbox">
+                                                                <span></span>
+                                                                <label for="test612">
+                                                                    test 3
+                                                                </label>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="cg-tb-title">
+                                                Max CPA For The Main Goal
+                                            </div>
+                                            <div class="cg-tb-value">
+                                                100500
+                                            </div>
+                                            <button class="cg-tb-edit" type="button">
+                                                <img src="img/pencil.svg" alt="edit">
+                                                <span>edit value</span>
+                                            </button>
+                                            <div class="cg-tb-evalue">
+                                                <input type="text" class="cg-form-style-s" placeholder="enter a value">
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="cg-tb-title">
+                                                Is E-Commerce?
+                                            </div>
+                                            <div class="cg-switch">
+                                                <input type="checkbox">
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="cg-tb-title">
+                                                How Many Products?
+                                            </div>
+                                            <div class="cg-tb-value">
+                                                Enter a value
+                                            </div>
+                                            <button class="cg-tb-edit" type="button">
+                                                <img src="img/pencil.svg" alt="edit">
+                                                <span>edit value</span>
+                                            </button>
+                                            <div class="cg-tb-evalue">
+                                                <input type="text" class="cg-form-style-s" placeholder="enter a value">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="cg-tab3">
+                                    <div class="cg-tb-flex">
+                                        <div>
+                                            <div class="cg-tb-title">
+                                                Ad Account
+                                            </div>
+                                            <div class="cg-tb-value">
+                                                Ad account from the list
+                                            </div>
+                                            <button class="cg-tb-edit" type="button">
+                                                <img src="img/pencil.svg" alt="edit">
+                                                <span>edit value</span>
+                                            </button>
+                                            <div class="cg-tb-evalue">
+                                                <div class="cg-form-drop cg-drop-block">
+                                                <button type="button">Select ad account from the list</button>
+                                                <div>
+                                                    <ul>
+                                                        <li class="cg-cb-block">
+                                                            <input id="test410" type="checkbox">
+                                                            <span></span>
+                                                            <label for="test410">
+                                                                test
+                                                            </label>
+                                                        </li>
+                                                        <li class="cg-cb-block">
+                                                            <input id="test411" type="checkbox">
+                                                            <span></span>
+                                                            <label for="test411">
+                                                                test 2
+                                                            </label>
+                                                        </li>
+                                                        <li class="cg-cb-block">
+                                                            <input id="test412" type="checkbox">
+                                                            <span></span>
+                                                            <label for="test412">
+                                                                test 3
+                                                            </label>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="cg-tb-title">
+                                                Facebook Account
+                                            </div>
+                                            <div class="cg-tb-value">
+                                                Select FB Page from the list
+                                            </div>
+                                            <button class="cg-tb-edit" type="button">
+                                                <img src="img/pencil.svg" alt="edit">
+                                                <span>edit value</span>
+                                            </button>
+                                            <div class="cg-tb-evalue">
+                                                <div class="cg-form-drop cg-drop-block">
+                                                    <button type="button">Select FB Page from the list</button>
+                                                    <div>
+                                                        <ul>
+                                                            <li class="cg-cb-block">
+                                                                <input id="test510" type="checkbox">
+                                                                <span></span>
+                                                                <label for="test510">
+                                                                    test
+                                                                </label>
+                                                            </li>
+                                                            <li class="cg-cb-block">
+                                                                <input id="test511" type="checkbox">
+                                                                <span></span>
+                                                                <label for="test511">
+                                                                    test 2
+                                                                </label>
+                                                            </li>
+                                                            <li class="cg-cb-block">
+                                                                <input id="test512" type="checkbox">
+                                                                <span></span>
+                                                                <label for="test512">
+                                                                    test 3
+                                                                </label>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="cg-tb-title">
+                                                Main Goal
+                                            </div>
+                                            <div class="cg-tb-value">
+                                                Something and Blah-Blah-Blah
+                                            </div>
+                                            <button class="cg-tb-edit" type="button">
+                                                <img src="img/pencil.svg" alt="edit">
+                                                <span>edit value</span>
+                                            </button>
+                                            <div class="cg-tb-evalue">
+                                                <div class="cg-form-drop cg-drop-block">
+                                                    <button type="button">Something and Blah-Blah-Blah</button>
+                                                    <div>
+                                                        <ul>
+                                                            <li class="cg-cb-block">
+                                                                <input id="test610" type="checkbox">
+                                                                <span></span>
+                                                                <label for="test610">
+                                                                    test
+                                                                </label>
+                                                            </li>
+                                                            <li class="cg-cb-block">
+                                                                <input id="test611" type="checkbox">
+                                                                <span></span>
+                                                                <label for="test611">
+                                                                    test 2
+                                                                </label>
+                                                            </li>
+                                                            <li class="cg-cb-block">
+                                                                <input id="test612" type="checkbox">
+                                                                <span></span>
+                                                                <label for="test612">
+                                                                    test 3
+                                                                </label>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="cg-tb-title">
+                                                Max CPA For The Main Goal
+                                            </div>
+                                            <div class="cg-tb-value">
+                                                100500
+                                            </div>
+                                            <button class="cg-tb-edit" type="button">
+                                                <img src="img/pencil.svg" alt="edit">
+                                                <span>edit value</span>
+                                            </button>
+                                            <div class="cg-tb-evalue">
+                                                <input type="text" class="cg-form-style-s" placeholder="enter a value">
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="cg-tb-title">
+                                                Is E-Commerce?
+                                            </div>
+                                            <div class="cg-switch">
+                                                <input type="checkbox">
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="cg-tb-title">
+                                                How Many Products?
+                                            </div>
+                                            <div class="cg-tb-value">
+                                                Enter a value
+                                            </div>
+                                            <button class="cg-tb-edit" type="button">
+                                                <img src="img/pencil.svg" alt="edit">
+                                                <span>edit value</span>
+                                            </button>
+                                            <div class="cg-tb-evalue">
+                                                <input type="text" class="cg-form-style-s" placeholder="enter a value">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cg-cp-flex">
+                    <div>
+                        <h4>Chatbots</h4>
+                    </div>
+                    <div class="cg-ps-cb">
+                        <div class="cg-cp-lblist">
+                            <button type="button" class="cg-cs-item">
+                                <img src="img/slack-b.svg" alt="img">
+                                <span>Slack</span>
+                            </button>
+                            <button type="button" class="cg-cs-item">
+                                <img src="img/messenger-b.svg" alt="img">
+                                <span>Facebook Messenger</span>
+                            </button>
+                        </div>
+                        <div class="cg-ps-sb-dd">
+                            <div>
+                                <span>Up to 5 insights per day</span>
+                                <button type="button"><img src="img/pencil.svg" alt="edit"></button>
+                            </div>
+                            <div class="cg-form-drop cg-drop-block">
+                                <button type="button">Up to 5 insights per day</button>
+                                <div>
+                                    <ul>
+                                        <li class="cg-cb-block">
+                                            <input id="test910" type="checkbox">
+                                            <span></span>
+                                            <label for="test910">
+                                                Up to 10 insights per day
+                                            </label>
+                                        </li>
+                                        <li class="cg-cb-block">
+                                            <input id="test911" type="checkbox">
+                                            <span></span>
+                                            <label for="test911">
+                                                Up to 20 insights per day
+                                            </label>
+                                        </li>
+                                        <li class="cg-cb-block">
+                                            <input id="test912" type="checkbox">
+                                            <span></span>
+                                            <label for="test912">
+                                                Up to 30 insights per day
+                                            </label>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cg-cp-flex cg-np">
+                    <div>
+                        <h4>Insights Reports On E-Mail</h4>
+                    </div>
+                    <div class="cg-ps-lt">
+                        <div>
+                            <div class="cg-switch">
+                                <input type="checkbox">
+                                <span></span>
+                            </div>
+                            <div class="cg-ps-lt-text">Up to 5 insights per day</div>
+                            <input type="text" class="cg-form-style">
+                        </div>
+                        <div class="cg-form-drop cg-drop-block">
+                            <button type="button">Weekly report</button>
+                            <div>
+                                <ul>
+                                    <li class="cg-cb-block">
+                                        <input id="test31" type="checkbox">
+                                        <span></span>
+                                        <label for="test31">
+                                            example 1
+                                        </label>
+                                    </li>
+                                    <li class="cg-cb-block">
+                                        <input id="test32" type="checkbox">
+                                        <span></span>
+                                        <label for="test32">
+                                            example 2
+                                        </label>
+                                    </li>
+                                    <li class="cg-cb-block">
+                                        <input id="test33" type="checkbox">
+                                        <span></span>
+                                        <label for="test33">
+                                            example 3
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cg-text-center cg-btns-sm">
+                <button type="submit" class="cg-btn-link">
+                    <span><img src="img/save.svg" alt="img"></span>
+                    Save changes
+                </button>
+            </div>
+        </form>
+    </div>
 
 	<div id="cg-modal-rc" class="mfp-hide cg-modal">
 		<h3 class="cg-chm-title">
@@ -295,7 +951,7 @@
 				</div>
 				<div class="cg-cp-flex">
 					<div>
-						<h4>Get insights reports on e-mail</h4>
+						<h4>Get Insights Reports On E-Mail</h4>
 					</div>
 					<div>
 						<div class="cg-sua-flex">
@@ -346,7 +1002,7 @@
 	</div>
 
 	<div id="cg-modal-ai" class="mfp-hide cg-modal">
-		<h3 class="cg-cu-title">
+		<h3 class="cg-mt-title">
 			<span>Accept Invitation</span>
 		</h3>
 		<div class="cg-ai-block">
@@ -4217,7 +4873,7 @@
 		</form>
 	</div>
 
-	<div id="cg-modal-mt" class="mfp-hide cg-modal cg-modal-nti">
+	<div id="cg-modal-mt" class="mfp-hide cg-modal">
 		<h3 class="cg-mt-title">
 			<span>Manage Team</span>
 			<a class="popup-modal-dismiss" href="#"><img src="img/x.svg" alt="x"></a>
