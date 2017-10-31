@@ -57,7 +57,6 @@ h2
 
 .cg-col-center
 	width: 703px
-	margin-left: 38px
 	padding: 15px 0 30px
 
 	.slimScrollDiv, .cg-scroll
@@ -81,7 +80,7 @@ h2
 	display: flex
 	align-items: center
 	justify-content: space-between
-	padding: 0 38px 0 15px
+	padding: 0 0 0 15px
 	margin-bottom: 16px
 
 	h2
@@ -145,7 +144,7 @@ h2
 
 .cg-segments
 	margin-bottom: 10px
-	padding: 0 38px 0 15px
+	padding: 0 0 0 15px
 
 	form
 		display: flex
@@ -236,9 +235,6 @@ h2
 .slimScrollRail, .slimScrollBar
 	opacity: 1 !important
 	right: 0 !important
-
-.cg-main-content
-	padding-right: 38px
 
 .cg-sbw-top
 	position: relative
@@ -950,7 +946,7 @@ h2
 		font-weight: 300
 		margin: 0 0 24px
 
-.cg-np
+.cg-npr
 	margin-bottom: 22px
 
 	> div
@@ -1011,6 +1007,9 @@ h2
 	> div:last-child
 		display: flex
 		justify-content: center
+
+		img:nth-child(2), img:nth-child(3)
+			display: none
 
 .cg-cap-message
 	background: $tcolor
@@ -2851,7 +2850,8 @@ input:-ms-input-placeholder
 
 		> div:last-child
 			position: absolute
-			right: 65px
+			left: 50%
+			transform: translate(-50%,0)
 			bottom: 40px
 			display: flex
 

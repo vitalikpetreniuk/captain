@@ -53,7 +53,6 @@ h2 {
 
 .cg-col-center {
   width: 703px;
-  margin-left: 38px;
   padding: 15px 0 30px; }
   .cg-col-center .slimScrollDiv, .cg-col-center .cg-scroll {
     height: 3000px !important; }
@@ -84,7 +83,7 @@ h2 {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 0 38px 0 15px;
+  padding: 0 0 0 15px;
   margin-bottom: 16px; }
   .cg-center-top h2 {
     max-width: 270px;
@@ -161,7 +160,7 @@ h2 {
 
 .cg-segments {
   margin-bottom: 10px;
-  padding: 0 38px 0 15px; }
+  padding: 0 0 0 15px; }
   .cg-segments form {
     display: -webkit-box;
     display: -webkit-flex;
@@ -267,9 +266,6 @@ h2 {
 .slimScrollRail, .slimScrollBar {
   opacity: 1 !important;
   right: 0 !important; }
-
-.cg-main-content {
-  padding-right: 38px; }
 
 .cg-sbw-top {
   position: relative;
@@ -1017,9 +1013,9 @@ h2 {
     font-weight: 300;
     margin: 0 0 24px; }
 
-.cg-np {
+.cg-npr {
   margin-bottom: 22px; }
-  .cg-np > div {
+  .cg-npr > div {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1032,20 +1028,20 @@ h2 {
     -webkit-justify-content: flex-end;
         -ms-flex-pack: end;
             justify-content: flex-end; }
-    .cg-np > div + div {
+    .cg-npr > div + div {
       margin-top: 12px; }
-    .cg-np > div strong {
+    .cg-npr > div strong {
       font-size: 14px;
       font-weight: 400;
       width: 68px;
       position: relative;
       top: -1px; }
-    .cg-np > div > span {
+    .cg-npr > div > span {
       padding-left: 50px;
       font-size: 32px;
       font-weight: 100;
       padding-bottom: 1px; }
-      .cg-np > div > span span {
+      .cg-npr > div > span span {
         font-size: 24px; }
 
 .cg-n > span {
@@ -1090,6 +1086,8 @@ h2 {
     -webkit-justify-content: center;
         -ms-flex-pack: center;
             justify-content: center; }
+    .cg-cap-block > div:last-child img:nth-child(2), .cg-cap-block > div:last-child img:nth-child(3) {
+      display: none; }
 
 .cg-cap-message {
   background: #50cfc8;
@@ -3093,7 +3091,10 @@ input:-ms-input-placeholder {
         display: block; }
     .cg-main-menu-block .cg-col-scroll-in > div:last-child {
       position: absolute;
-      right: 65px;
+      left: 50%;
+      -webkit-transform: translate(-50%, 0);
+          -ms-transform: translate(-50%, 0);
+              transform: translate(-50%, 0);
       bottom: 40px;
       display: -webkit-box;
       display: -webkit-flex;
