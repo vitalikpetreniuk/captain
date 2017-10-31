@@ -151,8 +151,12 @@
     margin-left: 22px; }
     .cg-center-top-links span {
       display: none; }
+  .cg-center-top h2 {
+    width: -webkit-calc(100% - 112px);
+    width: calc(100% - 112px);
+    max-width: none; }
   .cg-center-top > div {
-    width: auto; }
+    width: 112px; }
     .cg-center-top > div form {
       display: none; }
   .cg-search-open {
@@ -274,13 +278,15 @@
     left: auto;
     right: 0; } }
 
-@media (max-height: 550px) {
-  .cg-main-menu-block .cg-col-scroll-in > div:last-child {
-    position: static;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center; } }
+@media (max-height: 668px) {
+  .cg-main-menu-block .cg-col-scroll-in {
+    padding: 14px 16px 80px !important; }
+    .cg-main-menu-block .cg-col-scroll-in > div:last-child {
+      position: static;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center; } }
 
 @media (max-width: 413px) {
   .cg-segments-buttons {
@@ -293,7 +299,7 @@
       .cg-segments-buttons button + button {
         margin: 5px 0 0; }
   .cg-col-center {
-    padding: 98px 30px 15px; }
+    padding: 98px 15px 15px; }
   .cg-hc-legend {
     padding-left: 0; }
   .cg-ch-crt > div:first-child {
@@ -303,13 +309,6 @@
       margin: 0; }
   .cg-ch-crt-text {
     top: 0; }
-  .cg-ch-choose > div {
-    padding: 5px 0 30px 0;
-    background-position: right 5px; }
-    .cg-ch-choose > div + div {
-      margin-top: 10px; }
-    .cg-ch-choose > div span {
-      right: 28px; }
   .cg-btn-link {
     width: 100%;
     padding: 0; }
@@ -321,4 +320,13 @@
     left: 0;
     right: 0; }
   .cg-segment-block .cg-sb-right-in::before, .cg-segment-block.open .cg-sb-right-in::before {
-    left: -80px; } }
+    left: -80px; }
+  .cg-ch-choose > div {
+    padding: 5px 105px 5px 0;
+    background-position: -webkit-calc(100% - 108px) 5px;
+    background-position: calc(100% - 108px) 5px; }
+    .cg-ch-choose > div span {
+      right: 132px; }
+  .cg-ch-choose .cg-ch-lsd {
+    background-position: -webkit-calc(100% - 108px) 7px;
+    background-position: calc(100% - 108px) 7px; } }
